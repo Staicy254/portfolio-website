@@ -25,7 +25,7 @@ const projects = [
     image: "/placeproject4.png",
     technologies: ["React", "TypeScript", "CSS", "HTML"],
     github: "https://github.com/Staicy254/neon-crypto_launch",
-    figma: "https://www.figma.com/design/sm1Vm7XB2wSabFQBoaYAbT/Neon-Crypto?t=WF1z6EwHhfnrmSdC-1",
+    figma: "https://www.figma.com/proto/sm1Vm7XB2wSabFQBoaYAbT/Neon-Crypto?node-id=1-2&t=RJjJ0LGb7MhXqAQ8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     live: "https://neon-crypto-launch.vercel.app/",
     featured: true,
   },
@@ -35,7 +35,7 @@ const projects = [
     description: "Food court informational website",
     image: "/placeproject3.png",
     technologies: ["Figma"],
-    figma: "https://www.figma.com/design/VypqXEjO52ZDKcQuvrdIBq/Foodi?t=WF1z6EwHhfnrmSdC-1",
+    figma: "https://www.figma.com/proto/VypqXEjO52ZDKcQuvrdIBq/Foodi?node-id=1-12&p=f&t=FIQ1euZ3RN6QHP0T-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description: "A travelling agency site.",
     image: "/placeproject2.png",
     technologies: ["Figma"],
-    figma: "https://www.figma.com/design/jaWWbzeaSW33dbnK3OxpCl/Safiri?t=WF1z6EwHhfnrmSdC-1",
+    figma: "https://www.figma.com/proto/jaWWbzeaSW33dbnK3OxpCl/Safiri?node-id=2-993&p=f&t=XlM0RS1TBjhTrN3x-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
   },
 ]
