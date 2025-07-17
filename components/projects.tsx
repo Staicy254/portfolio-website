@@ -35,7 +35,7 @@ const projects = [
     description: "Food court informational website",
     image: "/placeproject3.png",
     technologies: ["Figma"],
-    figma: "https://www.figma.com/proto/VypqXEjO52ZDKcQuvrdIBq/Foodi?node-id=1-12&p=f&t=FIQ1euZ3RN6QHP0T-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    live: "https://www.figma.com/proto/VypqXEjO52ZDKcQuvrdIBq/Foodi?node-id=1-12&p=f&t=FIQ1euZ3RN6QHP0T-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description: "A travelling agency site.",
     image: "/placeproject2.png",
     technologies: ["Figma"],
-    figma: "https://www.figma.com/proto/jaWWbzeaSW33dbnK3OxpCl/Safiri?node-id=2-993&p=f&t=XlM0RS1TBjhTrN3x-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    live: "https://www.figma.com/proto/jaWWbzeaSW33dbnK3OxpCl/Safiri?node-id=2-993&p=f&t=XlM0RS1TBjhTrN3x-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
   },
 ]
