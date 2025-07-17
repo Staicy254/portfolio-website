@@ -47,6 +47,15 @@ const projects = [
     live: "https://www.figma.com/proto/jaWWbzeaSW33dbnK3OxpCl/Safiri?node-id=2-993&p=f&t=XlM0RS1TBjhTrN3x-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
   },
+  {
+    id: 5,
+    title: "Pepper Pizza",
+    description: "Pizza selling shop.",
+    image: "/placeproject2.png",
+    technologies: ["Figma", "Framer"],
+    live: "https://pepper.framer.website/",
+    featured: false,
+  },
 ]
 
 export default function Projects() {
