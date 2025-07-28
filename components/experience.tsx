@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 const experiences = [
   {
     id: 1,
-    title: "Frontend Software Engineer",
+    title: "UI/UX Designer",
     company: "ProsperMinds LTD",
     location: "Nairobi, Kenya",
     period: "2024 March - 2025 March",
@@ -40,10 +40,10 @@ const experiences = [
   },
   {
     id: 3,
-    title: "Web Developer",
+    title: "UI/UX Designer",
     company: "Oasis Infobyte",
     location: "New Delhi, India",
-    period: "2024 Feb - 2024 Feb",
+    period: "2023 Jun - 2023 Dec",
     description:
       "Joined as an intern to build a few websites.",
     achievements: [
@@ -56,10 +56,10 @@ const experiences = [
   },
   {
     id: 4,
-    title: "Web Developer",
+    title: "UI/UX Designer",
     company: "Pivot Networks",
     location: "Remote",
-    period: "2023 June - 2023 Dec",
+    period: "2022 Jan - 2022 Dec",
     description:
       "Started my professional journey building websites for small businesses and learning the fundamentals of modern web development.",
     achievements: [
