@@ -57,13 +57,13 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <motion.button
-            whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(168, 85, 247, 0.4)" }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold text-lg transition-all duration-300"
-            onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
-          >
-            View My Work
-          </motion.button>
+  whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(168, 85, 247, 0.4)" }}
+  whileTap={{ scale: 0.95 }}
+  className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold text-lg transition-all duration-300"
+  onClick={() => window.open("https://www.behance.net/jeanauma", "_blank")}
+>
+  View My Work
+</motion.button>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
