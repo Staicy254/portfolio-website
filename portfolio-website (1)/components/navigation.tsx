@@ -52,7 +52,7 @@ export default function Navigation() {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
             >
-              Otambo Library
+              Portfolio
             </motion.div>
 
             {/* Desktop Navigation */}

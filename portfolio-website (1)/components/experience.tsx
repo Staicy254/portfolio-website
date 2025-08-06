@@ -8,34 +8,34 @@ import { Button } from "@/components/ui/button"
 const experiences = [
   {
     id: 1,
-    title: "UI/UX Designer",
+    title: "Product Designer",
     company: "ProsperMinds LTD",
     location: "Nairobi, Kenya",
-    period: "2024 March - 2025 March",
+    period: "Mar 2024 - Mar 2025",
     description:
-      "Led the development of an Online LMS. Did marketing, Graphic Designs and system testing.",
+      "Leading the development of cutting-edge learning applications using React, Next.js, and modern web technologies. Mentoring junior developers and architecting scalable frontend solutions.",
     achievements: [
-      "Increased user interaction by 20% through optimization",
-      "Led a team of 2 developers on major product launch",
-      "Implemented design system.",
+      "Increased application performance by 40% through optimization",
+      "Led a team of 5 developers on major product launches",
+      "Implemented design system used across 10+ products",
     ],
-    technologies: ["React", "Figma", "HTML5", "CSS", "JavaScript", "WordPress", "Adobe Photoshop", "Canva"],
+    technologies: ["React", "Figma", "WordPress", "HTML5", "CSS3", "JavaScript", "Canva", "Adobe Creative Suite"],
     color: "from-purple-500 to-pink-500",
   },
   {
     id: 2,
-    title: "UI/UX Developer",
+    title: "UI/UX Designer",
     company: "Zendawa Africa",
-    location: "Nakuru, Kenya",
-    period: "2024 April - 2025 June",
+    location: "Nairobi, Kenya",
+    period: "Apr 2024 - Jun 2024",
     description:
-      "Developed a DEMO site for Zendawa Africa.",
+      "Joined as an early employee to build the company's first web platform. Worked in a fast-paced startup environment with rapid iteration cycles.",
     achievements: [
-      "Utilized UI/UX designing to build DEMO site",
+      "Developed MVP for the Zendawa Shopping app",
       "Reduced loading times by 60% through code optimization",
-      "Collaborated with cross-functional teams of 2+ members",
+      "Collaborated with cross-functional teams of 4+ members",
     ],
-    technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
+    technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -43,23 +43,22 @@ const experiences = [
     title: "UI/UX Designer",
     company: "Oasis Infobyte",
     location: "New Delhi, India",
-    period: "2023 Jun - 2023 Dec",
+    period: "Jun 2023 - Dec 2023",
     description:
-      "Joined as an intern to build a few websites.",
+      "Developed and maintained full-stack applications, working closely with design and product teams to deliver exceptional user experiences.",
     achievements: [
-      "Developed MVP for 3 websites",
       "Implemented responsive design for mobile-first approach",
       "Created reusable component library",
     ],
-    technologies: ["React", "HTML5", "Figma", "JavaScript"],
+    technologies: ["React", "HTML5", "Sass", "CSS3", "Adobe Creative Suite"],
     color: "from-green-500 to-teal-500",
   },
   {
     id: 4,
     title: "UI/UX Designer",
     company: "Pivot Networks",
-    location: "Remote",
-    period: "2022 Jan - 2022 Dec",
+    location: "Nairobi, Kenya",
+    period: "Jan 2022 - Dec 2022",
     description:
       "Started my professional journey building websites for small businesses and learning the fundamentals of modern web development.",
     achievements: [
@@ -67,7 +66,7 @@ const experiences = [
       "Learned modern JavaScript frameworks and tools",
       "Maintained 98% client satisfaction rate",
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "Adobe Photoshop", "Figma"],
+    technologies: ["HTML", "CSS", "JavaScript", "Figma", "WordPress"],
     color: "from-orange-500 to-red-500",
   },
 ]

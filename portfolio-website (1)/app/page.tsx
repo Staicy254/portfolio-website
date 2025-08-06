@@ -11,6 +11,8 @@ import Contact from "@/components/contact"
 import CustomCursor from "@/components/custom-cursor"
 import AudioController from "@/components/audio-controller"
 import ThreeBackground from "@/components/three-background"
+import DesignProcess from "@/components/design-process"
+import Testimonials from "@/components/testimonials"
 
 export default function Portfolio() {
   const { scrollYProgress } = useScroll()
@@ -43,7 +45,9 @@ export default function Portfolio() {
       <main className="relative z-20">
         <Hero />
         <About />
+        <DesignProcess />
         <Projects />
+        <Testimonials />
         <Experience />
         <Contact />
       </main>

@@ -2,13 +2,13 @@
 
 import { useRef } from "react"
 import { motion, useScroll, useTransform, useInView } from "framer-motion"
-import { Code, Palette, Zap, Heart } from "lucide-react"
+import { Palette, Users, Layers, Grid } from "lucide-react"
 
 const skills = [
-  { name: "Frontend Development", level: 95, icon: Code },
-  { name: "UI/UX Design", level: 88, icon: Palette },
-  { name: "Performance Optimization", level: 92, icon: Zap },
-  { name: "User Experience", level: 90, icon: Heart },
+  { name: "User Research & Testing", level: 95, icon: Users },
+  { name: "UI/UX Design", level: 98, icon: Palette },
+  { name: "Prototyping & Wireframing", level: 92, icon: Layers },
+  { name: "Design Systems", level: 90, icon: Grid },
 ]
 
 const funFacts = [
@@ -41,9 +41,9 @@ export default function About() {
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">About Me</span>
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer who believes in the power of code to create extraordinary experiences. With a
-            keen eye for design and a love for cutting-edge technology, I craft digital solutions that inspire and
-            engage.
+           I'm a passionate UI/UX designer who believes in the power of thoughtful design to 
+           create extraordinary user experiences. With a keen eye for aesthetics and a deep understanding of user needs, 
+           I craft intuitive and engaging digital solutions that both inspire and deliver impact.
           </p>
         </motion.div>
 
@@ -114,12 +114,25 @@ export default function About() {
           className="mt-20 text-center"
         >
           <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl backdrop-blur-sm border border-white/10">
-            <p className="text-lg text-white/90 leading-relaxed">
-              "I believe that great design is not just about how something looks, but how it makes people feel. Every
-              line of code I write is an opportunity to create something meaningful, something that connects with users
-              on a deeper level."
+            <p className="text-lg text-white/90 leading-relaxed mb-6">
+              "I believe great design is invisible - it solves problems so elegantly that users don't even notice the
+              complexity behind it. My approach combines deep user empathy with systematic design thinking to create
+              experiences that are both beautiful and functional."
             </p>
-            <div className="mt-6 text-purple-400 font-semibold">- Otambo Library</div>
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">5+ Years</div>
+                <div className="text-white/70">Design Experience</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">WCAG 2.1</div>
+                <div className="text-white/70">Accessibility Expert</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">15+ Tools</div>
+                <div className="text-white/70">Design & Research</div>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

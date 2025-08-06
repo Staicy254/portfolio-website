@@ -9,66 +9,120 @@ import Image from "next/image"
 const projects = [
   {
     id: 1,
-    title: "Pepper Pizza",
+    title: "Zendawa WebApp",
     category: "Web Application",
-    description: "Pizza selling shop.",
-    image: "/placeproject5.png",
-    technologies: ["Figma", "Framer"],
-    live: "https://many-stage-190224.framer.app/",
-    featured: false,
+    description:
+      "Designed and developed the Zendawa web application from the ground up, focusing on intuitive user experience and seamless interface interactions.",
+    image: "/mobile-banking-app.png",
+    video: "/placeholder-video.mp4",
+    technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/Staicy254/Zendawa_Africa",
+    live: "https://zendawa-africa.vercel.app/",
+    featured: true,
+    designProcess: {
+      problem:
+        "Users found it difficult to navigate the existing informational site and were hesitant to complete purchases due to a lack of trust in the digital transaction process. This led to a 40% task abandonment rate during checkout.",
+      research:
+        "Conducted 15 in-depth user interviews with target customers (including caregivers and chronic illness patients), analyzed 200+ survey responses, and created 3 user personas based on medication shopping behavior, digital confidence, and urgency levels.",
+      solution:
+        "Redesigned the platform into a user-friendly shopping web app with a clear, simplified navigation flow. Applied progressive disclosure to avoid overwhelming users, integrated trust-building elements like secure payment badges and real-time order tracking, and added micro-interactions to provide feedback during key steps in the checkout process.",
+      outcomes:
+        "Achieved a 65% increase in task completion (successful checkouts), reduced support ticket volume by 30%, and boosted overall user satisfaction score from 3.2 to 4.6 out of 5.",
+    },
+    wireframes: "/mobile-app-wireframes.png",
+    prototype: "https://www.figma.com/proto/yr5irKecgBMS2AQ46madkm/Zendawa-Africa-Design?node-id=1-77&p=f&t=Ag3hhiC0XoIXTrUT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A77",
+    userTesting: "Conducted 3 rounds of usability testing with 24 participants, A/B tested key flows with 1000+ users.",
+    accessibility:
+      "WCAG 2.1 AA compliant, 4.5:1 color contrast ratio, screen reader optimized, keyboard navigation support.",
+    designSystem:
+      "Created comprehensive design system with 50+ components, 8-point grid system, and semantic color tokens.",
   },
   {
     id: 2,
-    title: "Jewellery Charm",
-    category: "Web Application",
-    description: "Jewellery shop.",
-    image: "/placeproject6.png",
-    technologies: ["Figma", "Framer"],
-    live: "https://honest-remember-136608.framer.app/",
-    featured: false,
+    title: "Crypto Website Redesign",
+    category: "UX Research",
+    description:
+      "Research-driven redesign of an crypto platform to improve interaction engagement.",
+    image: "/e-learning-dashboard.png",
+    video: "/placeholder-video.mp4",
+    technologies: ["Figma", "Miro", "UserTesting", "Google Analytics"],
+    github: "https://github.com/Staicy254/neon-crypto_launch",
+    live: "https://neon-crypto-launch.vercel.app/",
+    featured: true,
+    designProcess: {
+      problem: "Neon Crypto Launch suffered from weak engagement metrics, revealing critical usability and motivational issues within the learning experience.",
+      research:
+        "Adopted a mixed-methods UX research approach: conducted heatmap analysis to identify drop-off points, mapped end-to-end user journeys, performed card sorting exercises with 50 learners to clarify content hierarchy, and gathered insights through stakeholder interviews.",
+      solution: "Revamped the learning experience by introducing intuitive progress tracking, gamified learning paths (e.g., badges, levels, crypto rewards), and collaborative features like peer discussions and leaderboard challenges to foster community-driven motivation.",
+      outcomes:
+        "Course completion rate surged to 67%, average time-on-platform rose by 45%, and student satisfaction ratings improved significantly from 2.8 to 4.3 out of 5.",
+    },
+    wireframes: "/e-learning-wireframes-user-flow.png",
+    prototype: "https://www.figma.com/proto/sm1Vm7XB2wSabFQBoaYAbT/Neon-Crypto?node-id=1-2&p=f&t=PYsdsMWbJQFlHItQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    userTesting:
+      "Conducted 3 iterative testing cycles, including moderated usability sessions with 18 students and unmoderated remote testing with over 200 participants, to gather both qualitative and quantitative insights for continuous design refinement.",
+    accessibility:
+      "Prioritized cognitive accessibility by establishing a clear content hierarchy, minimizing distractions, and using progressive disclosure to reduce cognitive load — ensuring the platform remained inclusive for diverse learning styles and attention spans.",
+    designSystem:
+      "Developed a scalable, education-centered design system with modular components tailored for learning workflows. Emphasized consistency in iconography, typography, and spacing — all built with an accessibility-first mindset to ensure usability across devices and abilities.",
   },
   {
     id: 3,
-    title: "Zendawa E-Commerce",
-    category: "Web Application",
-    description: "A next-generation e-commerce platform for Skin care products.",
-    image: "/placeproject1.png",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
-    github: "https://github.com/Staicy254/Zendawa_Africa",
-    live: "https://staicy254.github.io/Zendawa_Africa/",
-    featured: true,
+    title: "Healthcare Dashboard",
+    category: "Data Visualization",
+    description:
+      "Complex healthcare data visualization dashboard designed for medical professionals to track patient outcomes and operational metrics.",
+    image: "/healthcare-dashboard-visualization.png",
+    video: "/placeholder-video.mp4",
+    technologies: ["Figma", "D3.js", "React", "Tableau"],
+    github: "https://github.com",
+    live: "https://healthcare-dashboard-demo.com",
+    featured: false,
+    designProcess: {
+      problem:
+        "Medical staff spent 40% of their time navigating complex data systems, leading to delayed patient care decisions.",
+      research:
+        "Shadowed 12 healthcare professionals, conducted workflow analysis, and mapped information architecture needs.",
+      solution:
+        "Created role-based dashboards with customizable widgets, real-time alerts, and intuitive data filtering.",
+      outcomes: "Reduced data lookup time by 60%, improved decision-making speed by 35%, 95% user adoption rate.",
+    },
+    wireframes: "/medical-dashboard-wireframes.png",
+    prototype: "https://figma.com/proto/healthcare-dashboard",
+    userTesting: "Contextual inquiries with medical staff, task-based usability testing in clinical environments.",
+    accessibility:
+      "High contrast mode for various lighting conditions, keyboard shortcuts for power users, screen reader compatibility.",
+    designSystem: "Medical-grade design system with clinical color coding, standardized data visualization patterns.",
   },
   {
     id: 4,
-    title: "Neon Crypto Launch",
-    category: "Web Application",
-    description: "A stunning site that monitors crypto rates",
-    image: "/placeproject4.png",
-    technologies: ["React", "TypeScript", "CSS", "HTML"],
-    github: "https://github.com/Staicy254/neon-crypto_launch",
-    figma: "https://www.figma.com/proto/sm1Vm7XB2wSabFQBoaYAbT/Neon-Crypto?node-id=1-2&t=RJjJ0LGb7MhXqAQ8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    live: "https://neon-crypto-launch.vercel.app/",
-    featured: true,
-  },
-  {
-    id: 5,
-    title: "Foodi",
-    category: "Web Application",
-    description: "Food court informational website",
-    image: "/placeproject3.png",
-    technologies: ["Figma"],
-    live: "https://www.figma.com/proto/VypqXEjO52ZDKcQuvrdIBq/Foodi?node-id=1-12&p=f&t=FIQ1euZ3RN6QHP0T-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    title: "SaaS Onboarding Experience",
+    category: "User Experience",
+    description:
+      "Complete onboarding flow redesign for a B2B SaaS platform to reduce time-to-value and improve user activation rates.",
+    image: "/saas-onboarding-ui.png",
+    video: "/placeholder-video.mp4",
+    technologies: ["Figma", "Framer", "Mixpanel", "Fullstory"],
+    github: "https://github.com",
+    live: "https://saas-onboarding-demo.com",
     featured: false,
-  },
-  {
-    id: 6,
-    title: "Safiri Travelling Agency",
-    category: "Web Application",
-    description: "A travelling agency site.",
-    image: "/placeproject2.png",
-    technologies: ["Figma"],
-    live: "https://www.figma.com/proto/jaWWbzeaSW33dbnK3OxpCl/Safiri?node-id=2-993&p=f&t=XlM0RS1TBjhTrN3x-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    featured: false,
+    designProcess: {
+      problem:
+        "Only 12% of new users completed onboarding, with high drop-off rates at account setup and feature discovery stages.",
+      research:
+        "Funnel analysis, exit surveys, user session recordings, and competitive benchmarking across 15 SaaS platforms.",
+      solution:
+        "Progressive onboarding with contextual guidance, personalized setup flows, and interactive product tours.",
+      outcomes:
+        "Onboarding completion increased to 78%, time-to-first-value reduced by 50%, trial-to-paid conversion up 34%.",
+    },
+    wireframes: "/onboarding-flow-wireframes.png",
+    prototype: "https://figma.com/proto/saas-onboarding",
+    userTesting:
+      "Longitudinal study tracking 100 new users through onboarding, A/B tested 5 different flow variations.",
+    accessibility:
+      "Keyboard navigation support, clear progress indicators, alternative text for all interactive elements.",
+    designSystem: "Onboarding-specific component library with consistent messaging patterns and visual cues.",
   },
 ]
 
@@ -78,7 +132,16 @@ export default function Projects() {
   const containerRef = useRef<HTMLDivElement>(null)
   const isInView = useInView(containerRef, { once: true, margin: "-100px" })
 
-  const categories = ["All", "Web Application", "Data Visualization", "Web Design", "Game Development"]
+  const categories = [
+    "All",
+    "Web Application",
+    "Data Visualization",
+    "Web Design",
+    "Game Development",
+    "UI/UX Design",
+    "UX Research",
+    "User Experience",
+  ]
   const filteredProjects = filter === "All" ? projects : projects.filter((p) => p.category === filter)
 
   return (
@@ -320,7 +383,7 @@ function ProjectModal({
               </Button>
               <Button
                 variant="outline"
-                className="flex-1 border-white/30 text-white hover:bg-white/10"
+                className="flex-1 border-white/30 text-white hover:bg-white/10 bg-transparent"
                 onClick={() => window.open(project.github, "_blank")}
               >
                 <Github className="w-4 h-4 mr-2" />

@@ -12,12 +12,12 @@ import { Textarea } from "@/components/ui/textarea"
 const socialLinks = [
   { icon: Github, href: "https://github.com/Staicy254", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/jean-otambo-6342952a7/", label: "LinkedIn" },
-  { icon: Twitter, href: "https://x.com/jeanauma2", label: "X" },
+  { icon: Twitter, href: "https://x.com/jeanauma2", label: "Twitter" },
 ]
 
 const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
-  { icon: Phone, text: "+254 748 021385", href: "tel:+254748021385" },
+  { icon: Phone, text: "+254 748021385", href: "tel:+254748021385" },
   { icon: MapPin, text: "Nairobi, Kenya", href: "#" },
 ]
 
