@@ -68,31 +68,31 @@ const projects = [
   },
   {
     id: 3,
-    title: "Healthcare Dashboard",
+    title: "Brilish Toothcare",
     category: "Data Visualization",
     description:
-      "Complex healthcare data visualization dashboard designed for medical professionals to track patient outcomes and operational metrics.",
+      "Interactive dental data dashboard tailored for oral health professionals to monitor patient trends, treatment outcomes, and clinic efficiency at a glance.",
     image: "/healthcare-dashboard-visualization.png",
     video: "/placeholder-video.mp4",
-    technologies: ["Figma", "D3.js", "React", "Tableau"],
+    technologies: ["Figma", "Adobe Creative Suite"],
     github: "https://github.com",
-    live: "https://healthcare-dashboard-demo.com",
+    live: "https://www.figma.com/design/MT9MKYZDaA5jnG1T2he78S/Brillish?node-id=0-1&t=kcbQ2blcG54uicAV-1",
     featured: false,
     designProcess: {
       problem:
-        "Medical staff spent 40% of their time navigating complex data systems, leading to delayed patient care decisions.",
+        "Dental practitioners struggled with fragmented records and time-consuming data systems, slowing diagnosis and treatment planning.",
       research:
-        "Shadowed 12 healthcare professionals, conducted workflow analysis, and mapped information architecture needs.",
+        "Interviewed 10 dentists and hygienists, mapped clinical workflows, and analyzed appointment data flow and bottlenecks.",
       solution:
-        "Created role-based dashboards with customizable widgets, real-time alerts, and intuitive data filtering.",
-      outcomes: "Reduced data lookup time by 60%, improved decision-making speed by 35%, 95% user adoption rate.",
+        "Designed a smart dashboard with real-time treatment metrics, visual health histories, and simplified clinic performance tracking.",
+      outcomes: "Cut chart review time by 50%, accelerated treatment planning by 40%, and achieved 92% satisfaction from early testers.",
     },
     wireframes: "/medical-dashboard-wireframes.png",
-    prototype: "https://figma.com/proto/healthcare-dashboard",
-    userTesting: "Contextual inquiries with medical staff, task-based usability testing in clinical environments.",
+    prototype: "https://www.figma.com/proto/MT9MKYZDaA5jnG1T2he78S/Brillish?node-id=3-12&p=f&t=2v5ApwZowaD4midn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    userTesting: "Contextual inquiries with dental professionals and usability testing during live clinic hours to validate dashboard flow.",
     accessibility:
-      "High contrast mode for various lighting conditions, keyboard shortcuts for power users, screen reader compatibility.",
-    designSystem: "Medical-grade design system with clinical color coding, standardized data visualization patterns.",
+      "Optimized for diverse lighting conditions with high contrast mode, full keyboard navigation, and screen reader support.",
+    designSystem: "Dental-specific design system with intuitive iconography, clinical color cues, and standardized charting components.",
   },
   {
     id: 4,
@@ -137,7 +137,6 @@ export default function Projects() {
     "Web Application",
     "Data Visualization",
     "Web Design",
-    "Game Development",
     "UI/UX Design",
     "UX Research",
     "User Experience",
