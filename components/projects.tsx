@@ -14,7 +14,7 @@ const projects = [
     description:
       "Designed and developed the Zendawa web application from the ground up, focusing on intuitive user experience and seamless interface interactions.",
     image: "/zendawa-webapp.png",
-    video: "/placeholder-video.mp4",
+    video: "",
     technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Staicy254/Zendawa_Africa",
     live: "https://zendawa-africa.vercel.app/",
@@ -68,15 +68,15 @@ const projects = [
   },
   {
     id: 3,
-    title: "Brilish Toothcare",
+    title: "Healthcare Dashboard",
     category: "Data Visualization",
     description:
-      "Interactive dental data dashboard tailored for oral health professionals to monitor patient trends, treatment outcomes, and clinic efficiency at a glance.",
+      "Complex healthcare data visualization dashboard designed for medical professionals to track patient outcomes and operational metrics.",
     image: "/healthcare-dashboard-visualization.png",
     video: "/placeholder-video.mp4",
-    technologies: ["Figma", "Adobe Creative Suite"],
+    technologies: ["Figma", "D3.js", "React", "Tableau"],
     github: "https://github.com",
-    live: "https://www.figma.com/design/MT9MKYZDaA5jnG1T2he78S/Brillish?node-id=0-1&t=kcbQ2blcG54uicAV-1",
+    live: "https://healthcare-dashboard-demo.com",
     featured: false,
     designProcess: {
       problem:
@@ -88,7 +88,7 @@ const projects = [
       outcomes: "Enabled real-time feedback loop from clinics, cut manual reporting by 50%, and improved product iteration based on practitioner insights.",
     },
     wireframes: "/medical-dashboard-wireframes.png",
-    prototype: "https://www.figma.com/proto/MT9MKYZDaA5jnG1T2he78S/Brillish?node-id=3-12&p=f&t=2v5ApwZowaD4midn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    prototype: "https://figma.com/proto/healthcare-dashboard",
     userTesting: "Tested with Brilish partner clinics through contextual interviews and usage observation over 4 weeks.",
     accessibility:
       "Built with dental professionals in mind—high contrast UI, keyboard nav, and screen reader compatible components.",
@@ -137,6 +137,7 @@ export default function Projects() {
     "Web Application",
     "Data Visualization",
     "Web Design",
+    "Game Development",
     "UI/UX Design",
     "UX Research",
     "User Experience",
