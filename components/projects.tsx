@@ -13,7 +13,7 @@ const projects = [
     category: "Web Application",
     description:
       "Designed and developed the Zendawa web application from the ground up, focusing on intuitive user experience and seamless interface interactions.",
-    image: "/mobile-banking-app.png",
+    image: "/zendawa-webapp.png",
     video: "/placeholder-video.mp4",
     technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Staicy254/Zendawa_Africa",
