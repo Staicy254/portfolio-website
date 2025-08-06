@@ -80,19 +80,19 @@ const projects = [
     featured: false,
     designProcess: {
       problem:
-        "Dental practitioners struggled with fragmented records and time-consuming data systems, slowing diagnosis and treatment planning.",
+        "Brilish lacked real-time insights into how its toothpaste products impacted oral health outcomes across clinics using them.",
       research:
-        "Interviewed 10 dentists and hygienists, mapped clinical workflows, and analyzed appointment data flow and bottlenecks.",
+        "Interviewed 10 dental professionals partnered with Brilish, reviewed usage feedback, and mapped product tracking workflows.",
       solution:
-        "Designed a smart dashboard with real-time treatment metrics, visual health histories, and simplified clinic performance tracking.",
-      outcomes: "Cut chart review time by 50%, accelerated treatment planning by 40%, and achieved 92% satisfaction from early testers.",
+        "Developed a centralized dashboard to track treatment outcomes, visualize product effectiveness, and support evidence-based marketing.",
+      outcomes: "Enabled real-time feedback loop from clinics, cut manual reporting by 50%, and improved product iteration based on practitioner insights.",
     },
     wireframes: "/medical-dashboard-wireframes.png",
     prototype: "https://www.figma.com/proto/MT9MKYZDaA5jnG1T2he78S/Brillish?node-id=3-12&p=f&t=2v5ApwZowaD4midn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    userTesting: "Contextual inquiries with dental professionals and usability testing during live clinic hours to validate dashboard flow.",
+    userTesting: "Tested with Brilish partner clinics through contextual interviews and usage observation over 4 weeks.",
     accessibility:
-      "Optimized for diverse lighting conditions with high contrast mode, full keyboard navigation, and screen reader support.",
-    designSystem: "Dental-specific design system with intuitive iconography, clinical color cues, and standardized charting components.",
+      "Built with dental professionals in mind—high contrast UI, keyboard nav, and screen reader compatible components.",
+    designSystem: "Brilish-branded system with clean clinical visuals, soft dental palette, and reusable insight components.",
   },
   {
     id: 4,
