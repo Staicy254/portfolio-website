@@ -88,7 +88,7 @@ const projects = [
       outcomes: "Enabled real-time feedback loop from clinics, cut manual reporting by 50%, and improved product iteration based on practitioner insights.",
     },
     wireframes: "/medical-dashboard-wireframes.png",
-    prototype: "https://figma.com/proto/healthcare-dashboard",
+    prototype: "https://www.figma.com/proto/iHxHypaghjXAisvt9TFvr7/SaaS-Platform?node-id=1-738&t=ckvDPyOMm1pGzGJq-1",
     userTesting: "Tested with Brilish partner clinics through contextual interviews and usage observation over 4 weeks.",
     accessibility:
       "Built with dental professionals in mind—high contrast UI, keyboard nav, and screen reader compatible components.",
