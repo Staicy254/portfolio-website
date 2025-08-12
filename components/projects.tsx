@@ -100,7 +100,7 @@ const projects = [
     category: "User Experience",
     description:
       "Complete onboarding flow redesign for a B2B SaaS platform to reduce time-to-value and improve user activation rates.",
-    image: "/saas-onboarding-ui.png",
+    image: "/SaaS-UI.png",
     video: "/placeholder-video.mp4",
     technologies: ["Figma", "Framer", "Mixpanel", "Fullstory"],
     github: "https://github.com",
