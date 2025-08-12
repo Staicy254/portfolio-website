@@ -124,6 +124,37 @@ const projects = [
       "Keyboard navigation support, clear progress indicators, alternative text for all interactive elements.",
     designSystem: "Onboarding-specific component library with consistent messaging patterns and visual cues.",
   },
+  {
+    id: 5,
+  title: "Mariah the Scientist — Artist Website Design",
+  category: "UI/UX Design",
+  description:
+    "A complete website design for American R&B singer Mariah the Scientist, focused on fan engagement, music discovery, and tour promotion.",
+  image: "/Mariah-website.png",
+  video: "/placeholder-video.mp4",
+  technologies: ["Figma", "Framer", "Photoshop"],
+  github: "https://github.com", // not deployed
+  live: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
+  featured: true,
+  designProcess: {
+    problem:
+      "Many musicians rely solely on social media and streaming platforms, limiting control over brand identity and direct fan engagement.",
+    research:
+      "Reviewed 10+ artist websites, conducted informal fan surveys, and studied Mariah the Scientist’s visual style and music brand.",
+    solution:
+      "Designed a responsive website with sections for music, tours, merch, and contact, incorporating smooth navigation, subtle animations, and a clean modern aesthetic.",
+    outcomes:
+      "Created a functional prototype that can be adapted for other artists, strengthening my portfolio and serving as a base for two musicians who requested similar designs.",
+  },
+  wireframes: "/Mariah-Wireframes.png",
+  prototype: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
+  userTesting:
+    "Conducted feedback sessions with music fans and designers to refine navigation, content hierarchy, and mobile usability.",
+  accessibility:
+    "High-contrast typography, clear navigation labels, descriptive alt text for all images.",
+  designSystem:
+    "Custom component library including buttons, cards, and navigation elements, aligned with the artist’s brand style.",
+},
 ]
 
 export default function Projects() {
