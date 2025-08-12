@@ -104,7 +104,7 @@ const projects = [
     video: "/placeholder-video.mp4",
     technologies: ["Figma", "Framer", "Mixpanel", "Fullstory"],
     github: "https://github.com",
-    live: "https://saas-onboarding-demo.com",
+    live: "https://www.figma.com/proto/gCwXkTu4M3IrzXBrPVyQlG/SaaS-Platform-2?node-id=101-982&t=Lj9YfbhnDuhs7dcx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     featured: false,
     designProcess: {
       problem:
@@ -117,7 +117,7 @@ const projects = [
         "Onboarding completion increased to 78%, time-to-first-value reduced by 50%, trial-to-paid conversion up 34%.",
     },
     wireframes: "/onboarding-flow-wireframes.png",
-    prototype: "https://figma.com/proto/saas-onboarding",
+    prototype: "https://www.figma.com/proto/gCwXkTu4M3IrzXBrPVyQlG/SaaS-Platform-2?node-id=101-982&t=Lj9YfbhnDuhs7dcx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     userTesting:
       "Longitudinal study tracking 100 new users through onboarding, A/B tested 5 different flow variations.",
     accessibility:
