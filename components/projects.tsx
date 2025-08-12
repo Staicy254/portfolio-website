@@ -155,6 +155,37 @@ const projects = [
   designSystem:
     "Custom component library including buttons, cards, and navigation elements, aligned with the artist’s brand style.",
 },
+{
+  id: 6,
+title: "Tukicode — Kids Learning App UI/UX Design",
+category: "UI/UX Design",
+description:
+  "A playful and engaging mobile app design for Tukicode, an educational platform offering daily challenges in math, coding, grammar, and CRE for children. Focused on fun learning, easy navigation, and child-friendly safety features.",
+image: "/Tukicode.png",
+video: "/placeholder-video.mp4",
+technologies: ["Figma", "Illustrator", "Photoshop"],
+github: "https://github.com", // not deployed
+live: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
+featured: true,
+designProcess: {
+  problem:
+    "Many children’s educational apps are either too complex for younger users or lack engaging features that encourage daily learning and parent involvement.",
+  research:
+    "Reviewed 12+ popular children’s learning apps, studied child-friendly UI patterns, and interviewed parents and teachers to understand learning motivation and safe online experiences.",
+  solution:
+    "Designed a bright, mascot-guided app with a simple login/registration process, daily challenge streaks, subject-based navigation, and parent verification. Incorporated playful animations and large interactive buttons for small hands.",
+  outcomes:
+    "Created a working prototype tested with children aged 6–12, resulting in high engagement and easy navigation without adult assistance. Parents praised the balance between fun and learning.",
+},
+wireframes: "/Tukicode-Wireframes.png",
+prototype: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
+userTesting:
+  "Conducted feedback sessions with children, parents, and teachers to refine colors, text size, and onboarding steps. Adjusted the registration flow to make it quicker and more intuitive.",
+accessibility:
+  "Large tap targets, audio guidance for pre-readers, high-contrast colors, and descriptive icons for each learning subject.",
+designSystem:
+  "Custom child-friendly component library with oversized buttons, bright color palette, subject-themed icons, and consistent rounded shapes for a friendly feel.",
+},
 ]
 
 export default function Projects() {
