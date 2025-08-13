@@ -121,15 +121,12 @@ export default function About() {
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-purple-400 mb-2">5+ Years</div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">2+ Years</div>
                 <div className="text-white/70">Design Experience</div>
               </div>
+              
               <div>
-                <div className="text-2xl font-bold text-purple-400 mb-2">WCAG 2.1</div>
-                <div className="text-white/70">Accessibility Expert</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-purple-400 mb-2">15+ Tools</div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">4+ Tools</div>
                 <div className="text-white/70">Design & Research</div>
               </div>
             </div>
