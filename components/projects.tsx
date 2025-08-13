@@ -186,6 +186,29 @@ accessibility:
 designSystem:
   "Custom child-friendly component library with oversized buttons, bright color palette, subject-themed icons, and consistent rounded shapes for a friendly feel.",
 },
+{
+  "id": 6,
+  "title": "Jajamelo — Pizza & Fast Food Website Redesign",
+  "category": "UI/UX Design",
+  "description": "A fresh and modern website redesign for Jajamelo, a well-known store for fresh pizza and fast food. Focused on mouthwatering visuals, simple navigation, and a seamless ordering experience that highlights the brand’s commitment to quality and speed.",
+  "image": "/Jajamelo.png",
+  "video": "/placeholder-video.mp4",
+  "technologies": ["Figma", "Illustrator", "Photoshop"],
+  "github": "https://github.com", // not deployed
+  "live": "https://www.figma.com/proto/oJetYHWv7TMRO5VqDAwtZZ/Jajamelo?node-id=1-213&t=7Z0D6QiBnxUNZyJO-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "featured": true,
+  "designProcess": {
+    "problem": "The existing Jajamelo website lacked visual appeal, clear calls-to-action, and a strong focus on showcasing their food, making it harder to entice customers to order online.",
+    "research": "Reviewed competitor fast food and pizza websites, analyzed customer expectations for online ordering, and studied food photography techniques to increase appetite appeal.",
+    "solution": "Redesigned the site with bold hero imagery, high-quality food photography, easy-to-read menus, and a streamlined ordering process. Added clear CTAs, improved mobile responsiveness, and incorporated brand colors for a cohesive look.",
+    "outcomes": "Delivered a modern, user-friendly design that immediately showcases Jajamelo’s signature pizzas and fast food. The prototype received positive feedback for its mouthwatering visuals and ease of navigation, leading to stronger customer engagement."
+  },
+  "wireframes": "/Jajamelo-Wireframes.png",
+  "prototype": "https://www.figma.com/proto/oJetYHWv7TMRO5VqDAwtZZ/Jajamelo?node-id=1-213&t=7Z0D6QiBnxUNZyJO-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "userTesting": "Conducted feedback sessions with regular customers and first-time visitors to assess visual impact, menu clarity, and ordering flow. Refined the homepage layout to put best-selling items front and center.",
+  "accessibility": "High-contrast colors for readability, large buttons for easy mobile ordering, and descriptive food labels for screen readers.",
+  "designSystem": "Custom food-focused component library with consistent typography, a warm and appetizing color palette, rounded buttons, and imagery-driven sections to highlight freshness."
+}
 ]
 
 export default function Projects() {
