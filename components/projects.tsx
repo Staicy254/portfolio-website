@@ -132,8 +132,8 @@ const projects = [
     "A complete website design for American R&B singer Mariah the Scientist, focused on fan engagement, music discovery, and tour promotion.",
   image: "/Mariah-website.png",
   video: "/placeholder-video.mp4",
-  technologies: ["Figma", "Framer", "Photoshop"],
-  github: "https://github.com", // not deployed
+  technologies: ["Figma", "Framer", "Lummi"],
+  Documentation: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
   live: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
   featured: true,
   designProcess: {
