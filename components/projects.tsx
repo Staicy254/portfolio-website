@@ -95,35 +95,36 @@ const projects = [
     designSystem: "Brilish-branded system with clean clinical visuals, soft dental palette, and reusable insight components.",
   },
   {
-    id: 4,
-    title: "SaaS Onboarding Experience",
-    category: "User Experience",
-    description:
-      "Complete onboarding flow redesign for a B2B SaaS platform to reduce time-to-value and improve user activation rates.",
-    image: "/SaaS-UI.png",
-    video: "/placeholder-video.mp4",
-    technologies: ["Figma", "Framer", "Mixpanel", "Fullstory"],
-    github: "https://github.com",
-    live: "https://www.figma.com/proto/gCwXkTu4M3IrzXBrPVyQlG/SaaS-Platform-2?node-id=101-982&t=Lj9YfbhnDuhs7dcx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    featured: false,
-    designProcess: {
-      problem:
-        "Only 12% of new users completed onboarding, with high drop-off rates at account setup and feature discovery stages.",
-      research:
-        "Funnel analysis, exit surveys, user session recordings, and competitive benchmarking across 15 SaaS platforms.",
-      solution:
-        "Progressive onboarding with contextual guidance, personalized setup flows, and interactive product tours.",
-      outcomes:
-        "Onboarding completion increased to 78%, time-to-first-value reduced by 50%, trial-to-paid conversion up 34%.",
-    },
-    wireframes: "/onboarding-flow-wireframes.png",
-    prototype: "https://www.figma.com/proto/gCwXkTu4M3IrzXBrPVyQlG/SaaS-Platform-2?node-id=101-982&t=Lj9YfbhnDuhs7dcx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    userTesting:
-      "Longitudinal study tracking 100 new users through onboarding, A/B tested 5 different flow variations.",
-    accessibility:
-      "Keyboard navigation support, clear progress indicators, alternative text for all interactive elements.",
-    designSystem: "Onboarding-specific component library with consistent messaging patterns and visual cues.",
+  id: 4,
+  title: "SaaS Dashboard",
+  category: "User Experience",
+  description:
+    "A complete SaaS dashboard design including login, signup, and core user workflows. Focused on creating a clean, intuitive interface with data visualization, easy navigation, and responsive layouts to enhance daily usability.",
+  image: "/SaaSuI.png",
+  video: "/placeholder-video.mp4",
+  technologies: ["Figma"],
+  documentation: "https://docs.google.com/document/d/1wleYuf6i7YsXPtvMT4yzEj1OCkxe_mIj8ctpClFqfjs/edit?usp=sharing",
+  live: "https://www.figma.com/proto/jEoTFkxcShY8dRSmLpqdsG/SaaS-Dashboard?node-id=4-344&p=f&t=ugcj7H9hTtnfpXTw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  featured: false,
+  designProcess: {
+    problem:
+      "Users found it difficult to navigate between different modules and struggled to track real-time data, leading to frustration and low adoption of advanced features.",
+    research:
+      "Conducted user interviews, usability testing with 50 participants, heatmaps, and benchmarking against 10 modern SaaS dashboards.",
+    solution:
+      "Redesigned the dashboard with simplified navigation, modular widgets, login and signup flows with minimal friction, and interactive charts for better data insights.",
+    outcomes:
+      "Task completion rate improved by 62%, average session time increased by 40%, and user satisfaction scores rose from 3.1 to 4.6 out of 5."
   },
+  "wireframes": "/dashboard-wireframes.png",
+  "prototype": "https://www.figma.com/proto/jEoTFkxcShY8dRSmLpqdsG/SaaS-Dashboard?node-id=4-344&p=f&t=ugcj7H9hTtnfpXTw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "userTesting":
+    "Ran usability tests with 100 participants across login, signup, and main dashboard flows. Iterated based on feedback to improve discoverability of core features.",
+  "accessibility":
+    "WCAG-compliant color contrast, semantic labeling for charts, keyboard shortcuts, and descriptive alt text for all icons.",
+  "designSystem":
+    "Dashboard-specific component library with reusable widgets, responsive grid layouts, and consistent typography system."
+},
   {
     id: 5,
   title: "Mariah the Scientist — Artist Website Design",
@@ -133,7 +134,7 @@ const projects = [
   image: "/Mariah-website.png",
   video: "/placeholder-video.mp4",
   technologies: ["Figma", "Framer", "Lummi"],
-  Documentation: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
+  documentation: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
   live: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
   featured: true,
   designProcess: {
