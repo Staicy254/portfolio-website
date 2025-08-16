@@ -16,7 +16,7 @@ const projects = [
     image: "/zendawa-webapp.png",
     video: "",
     technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/Staicy254/Zendawa_Africa",
+    documentation: "https://docs.google.com/document/d/1psQpccGO-cQs75kVWR3CaKDyZ3qQEbTFs7K1SxUjM0U/edit?usp=sharing",
     live: "https://zendawa-africa.vercel.app/",
     featured: true,
     designProcess: {
@@ -30,7 +30,7 @@ const projects = [
         "Achieved a 65% increase in task completion (successful checkouts), reduced support ticket volume by 30%, and boosted overall user satisfaction score from 3.2 to 4.6 out of 5.",
     },
     wireframes: "/mobile-app-wireframes.png",
-    prototype: "https://www.figma.com/proto/yr5irKecgBMS2AQ46madkm/Zendawa-Africa-Design?node-id=1-77&p=f&t=Ag3hhiC0XoIXTrUT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A77",
+    prototype: "https://www.figma.com/proto/yr5irKecgBMS2AQ46madkm/Zendawa-Africa-Design?node-id=1-77&t=IdYlCJJTHPA9Amij-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A77",
     userTesting: "Conducted 3 rounds of usability testing with 24 participants, A/B tested key flows with 1000+ users.",
     accessibility:
       "WCAG 2.1 AA compliant, 4.5:1 color contrast ratio, screen reader optimized, keyboard navigation support.",
@@ -43,11 +43,11 @@ const projects = [
     category: "UX Research",
     description:
       "Research-driven redesign of an crypto platform to improve interaction engagement.",
-    image: "/e-learning-dashboard.png",
+    image: "/cryptovault.png",
     video: "/placeholder-video.mp4",
     technologies: ["Figma", "Miro", "UserTesting", "Google Analytics"],
-    github: "https://github.com/Staicy254/neon-crypto_launch",
-    live: "https://neon-crypto-launch.vercel.app/",
+    documentation: "https://docs.google.com/document/d/1mEBpHWCyzYFfKURADp3QWmSavMZK4rZTSzwfwOX4it8/edit?usp=sharing",
+    live: "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
     featured: true,
     designProcess: {
       problem: "Neon Crypto Launch suffered from weak engagement metrics, revealing critical usability and motivational issues within the learning experience.",
@@ -58,7 +58,7 @@ const projects = [
         "Course completion rate surged to 67%, average time-on-platform rose by 45%, and student satisfaction ratings improved significantly from 2.8 to 4.3 out of 5.",
     },
     wireframes: "/e-learning-wireframes-user-flow.png",
-    prototype: "https://www.figma.com/proto/sm1Vm7XB2wSabFQBoaYAbT/Neon-Crypto?node-id=1-2&p=f&t=PYsdsMWbJQFlHItQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    prototype: "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
     userTesting:
       "Conducted 3 iterative testing cycles, including moderated usability sessions with 18 students and unmoderated remote testing with over 200 participants, to gather both qualitative and quantitative insights for continuous design refinement.",
     accessibility:
