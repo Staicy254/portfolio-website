@@ -51,21 +51,30 @@ const projects = [
     featured: true,
     designProcess: {
       problem: "Neon Crypto Launch suffered from weak engagement metrics, revealing critical usability and motivational issues within the learning experience.",
-      research:
-        "Adopted a mixed-methods UX research approach: conducted heatmap analysis to identify drop-off points, mapped end-to-end user journeys, performed card sorting exercises with 50 learners to clarify content hierarchy, and gathered insights through stakeholder interviews.",
-      solution: "Revamped the learning experience by introducing intuitive progress tracking, gamified learning paths (e.g., badges, levels, crypto rewards), and collaborative features like peer discussions and leaderboard challenges to foster community-driven motivation.",
-      outcomes:
-        "Course completion rate surged to 67%, average time-on-platform rose by 45%, and student satisfaction ratings improved significantly from 2.8 to 4.3 out of 5.",
+      research: 
+  "Adopted a mixed-methods UX research approach: conducted competitor benchmarking across 12 leading crypto platforms, analyzed heatmaps to uncover navigation drop-offs, ran surveys with 80 users across beginner and advanced levels, and performed stakeholder interviews to prioritize features like portfolio visibility and security transparency.",
+
+  solution: 
+  "Redesigned the platform with a security-first approach, introducing a step-by-step onboarding flow with guided wallet setup, two-factor authentication prompts, and simplified account creation. Built a modular dashboard with customizable portfolio cards, real-time asset tracking, and clear trust indicators (encryption badges, MFA icons) to improve usability and confidence.",
+
+  outcomes: 
+  "Onboarding completion rates improved by 58%, transaction errors dropped by 44%, average session time increased by 37%, and overall trust scores rose from 2.9 to 4.5 out of 5.",
     },
-    wireframes: "/e-learning-wireframes-user-flow.png",
-    prototype: "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
-    userTesting:
-      "Conducted 3 iterative testing cycles, including moderated usability sessions with 18 students and unmoderated remote testing with over 200 participants, to gather both qualitative and quantitative insights for continuous design refinement.",
-    accessibility:
-      "Prioritized cognitive accessibility by establishing a clear content hierarchy, minimizing distractions, and using progressive disclosure to reduce cognitive load — ensuring the platform remained inclusive for diverse learning styles and attention spans.",
-    designSystem:
-      "Developed a scalable, education-centered design system with modular components tailored for learning workflows. Emphasized consistency in iconography, typography, and spacing — all built with an accessibility-first mindset to ensure usability across devices and abilities.",
-  },
+  wireframes: "/cryptovault-wireframes-user-flow.png",
+
+  prototype: 
+  "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
+
+  userTesting: 
+  "Conducted 3 iterative testing cycles, including moderated sessions with 20 crypto users and unmoderated remote testing with over 150 participants. A/B testing compared portfolio layouts and onboarding flows, leading to streamlined forms and better mobile transaction support.",
+
+  accessibility: 
+  "Ensured accessibility by using high-contrast typography on dark backgrounds, scalable components for responsiveness, descriptive alt text for charts and icons, and keyboard navigation support. Semantic HTML and error validation messages improved screen reader compatibility.",
+
+  designSystem: 
+  "Developed a scalable, crypto-centered design system with modular dashboard components (cards, charts, transaction lists). Emphasized consistency in iconography, typography (Poppins + Inter), and color palette (Dark Navy, Emerald Green, Electric Blue). Designed with accessibility-first principles for usability across devices and abilities.",
+},
+
   {
     id: 3,
     title: "Healthcare Dashboard",
