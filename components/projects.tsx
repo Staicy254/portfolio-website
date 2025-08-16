@@ -174,10 +174,10 @@ title: "Tukicode — Kids Learning App UI/UX Design",
 category: "UI/UX Design",
 description:
   "A playful and engaging mobile app design for Tukicode, an educational platform offering daily challenges in math, coding, grammar, and CRE for children. Focused on fun learning, easy navigation, and child-friendly safety features.",
-image: "/Tukicode.png",
+image: "/1tukicode.png",
 video: "/placeholder-video.mp4",
 technologies: ["Figma", "Illustrator", "Photoshop"],
-github: "https://github.com", // not deployed
+documentation: "https://docs.google.com/document/d/1EYcI7XqVeng0USR2iGwO-OczoiH-tUlZ8wINLknyIJo/edit?usp=sharing", 
 live: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
 featured: true,
 designProcess: {
@@ -385,7 +385,7 @@ function ProjectCard({
               className="text-white/80 hover:text-white p-0"
               onClick={(e) => {
                 e.stopPropagation()
-                window.open(project.github, "_blank")
+                window.open(project.documentation, "_blank")
               }}
             >
               <Github className="w-4 h-4 mr-2" />
@@ -483,7 +483,7 @@ function ProjectModal({
               <Button
                 variant="outline"
                 className="flex-1 border-white/30 text-white hover:bg-white/10 bg-transparent"
-                onClick={() => window.open(project.github, "_blank")}
+                onClick={() => window.open(project.documentation, "_blank")}
               >
                 <Github className="w-4 h-4 mr-2" />
                 View Source Code
