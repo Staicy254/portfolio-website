@@ -76,33 +76,36 @@ const projects = [
 },
 
   {
-    id: 3,
-    title: "Healthcare Dashboard",
-    category: "Data Visualization",
-    description:
-      "Complex healthcare data visualization dashboard designed for medical professionals to track patient outcomes and operational metrics.",
-    image: "/healthcare-dashboard-visualization.png",
-    video: "/placeholder-video.mp4",
-    technologies: ["Figma", "D3.js", "React", "Tableau"],
-    github: "https://github.com",
-    live: "https://healthcare-dashboard-demo.com",
-    featured: false,
-    designProcess: {
-      problem:
-        "Brilish lacked real-time insights into how its toothpaste products impacted oral health outcomes across clinics using them.",
-      research:
-        "Interviewed 10 dental professionals partnered with Brilish, reviewed usage feedback, and mapped product tracking workflows.",
-      solution:
-        "Developed a centralized dashboard to track treatment outcomes, visualize product effectiveness, and support evidence-based marketing.",
-      outcomes: "Enabled real-time feedback loop from clinics, cut manual reporting by 50%, and improved product iteration based on practitioner insights.",
-    },
-    wireframes: "/medical-dashboard-wireframes.png",
-    prototype: "https://www.figma.com/proto/iHxHypaghjXAisvt9TFvr7/SaaS-Platform?node-id=1-738&t=ckvDPyOMm1pGzGJq-1",
-    userTesting: "Tested with Brilish partner clinics through contextual interviews and usage observation over 4 weeks.",
-    accessibility:
-      "Built with dental professionals in mind—high contrast UI, keyboard nav, and screen reader compatible components.",
-    designSystem: "Brilish-branded system with clean clinical visuals, soft dental palette, and reusable insight components.",
+  id: 3,
+  title: "Healthcare Dashboard",
+  category: "Data Visualization",
+  description:
+    "A modern healthcare dashboard designed for doctors to manage patient information, daily schedules, medical supplies, and insurance data with clarity and efficiency.",
+  image: "/health-dashboard.png",
+  video: "/placeholder-video.mp4",
+  technologies: ["Figma", "React", "Chart.js", "TailwindCSS"],
+  documentation: "https://docs.google.com/document/d/1juMNSACAM1wW6-iPaGjDo-PzGWdJvHzAAwE14VW4Gqg/edit?usp=sharing",
+  live: "https://www.figma.com/proto/s3nbF92RGE1ySEsTJVkjt8/Healthcare-dashboard?node-id=1-2&t=EqNFISVpurlCdvz9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  featured: true,
+  designProcess: {
+    problem:
+      "Existing healthcare platforms were cluttered, making it difficult for doctors to quickly access patient vitals, diagnoses, allergies, and schedules. This inefficiency led to delays in care and reduced productivity.",
+    research:
+      "Conducted competitor analysis of 8 healthcare dashboards, interviewed 20 doctors and nurses, and mapped patient-care workflows. Heatmaps and usability feedback confirmed the need for clearer data visualization and simplified navigation.",
+    solution:
+      "Designed a modular, card-based dashboard with quick access to patient health indicators, daily appointments, doctor availability, and medical supplies. Integrated alerts for allergies, pernicious habits, and low-stock supplies. Applied a professional color palette (Teal, Soft Blue, Green, and Red) for clarity and trust.",
+    outcomes:
+      "Improved record access speed by 55%, reduced appointment scheduling time by 42%, decreased supply management errors by 37%, and raised user satisfaction scores from 3.0 to 4.7 out of 5."
   },
+  wireframes: "/medical-dashboard-wireframes.png",
+  prototype: "https://www.figma.com/proto/s3nbF92RGE1ySEsTJVkjt8/Healthcare-dashboard?node-id=1-2&t=EqNFISVpurlCdvz9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  userTesting:
+    "Conducted 3 usability testing cycles with 60 medical professionals, including doctors, nurses, and administrators. A/B tested dashboard layouts, leading to a 48% improvement in task completion rates.",
+  accessibility:
+    "Followed WCAG standards with high-contrast typography, touch-friendly buttons, descriptive alt text for charts/icons, error validation in forms, and full keyboard navigation support.",
+  designSystem:
+    "A scalable healthcare-centered design system with a teal-and-blue palette, Roboto/Montserrat typography, modular KPI cards, patient info panels, scheduling calendar, and reusable chart components for consistent workflows."
+},
   {
   id: 4,
   title: "SaaS Dashboard",
