@@ -16,7 +16,7 @@ const projects = [
     image: "/zendawa-webapp.png",
     video: "",
     technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
-    documentation: "https://docs.google.com/document/d/1psQpccGO-cQs75kVWR3CaKDyZ3qQEbTFs7K1SxUjM0U/edit?usp=sharing",
+    casestudy: "https://docs.google.com/document/d/1psQpccGO-cQs75kVWR3CaKDyZ3qQEbTFs7K1SxUjM0U/edit?usp=sharing",
     live: "https://zendawa-africa.vercel.app/",
     featured: true,
     designProcess: {
@@ -46,7 +46,7 @@ const projects = [
     image: "/cryptovault.png",
     video: "/placeholder-video.mp4",
     technologies: ["Figma", "Miro", "UserTesting", "Google Analytics"],
-    documentation: "https://docs.google.com/document/d/1mEBpHWCyzYFfKURADp3QWmSavMZK4rZTSzwfwOX4it8/edit?usp=sharing",
+    casestudy: "https://docs.google.com/document/d/1mEBpHWCyzYFfKURADp3QWmSavMZK4rZTSzwfwOX4it8/edit?usp=sharing",
     live: "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
     featured: true,
     designProcess: {
@@ -84,7 +84,7 @@ const projects = [
   image: "/health-dashboard.png",
   video: "/placeholder-video.mp4",
   technologies: ["Figma", "React", "Chart.js", "TailwindCSS"],
-  documentation: "https://docs.google.com/document/d/1juMNSACAM1wW6-iPaGjDo-PzGWdJvHzAAwE14VW4Gqg/edit?usp=sharing",
+  casestudy: "https://docs.google.com/document/d/1juMNSACAM1wW6-iPaGjDo-PzGWdJvHzAAwE14VW4Gqg/edit?usp=sharing",
   live: "https://www.figma.com/proto/s3nbF92RGE1ySEsTJVkjt8/Healthcare-dashboard?node-id=1-2&t=EqNFISVpurlCdvz9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   featured: true,
   designProcess: {
@@ -115,7 +115,7 @@ const projects = [
   image: "/SaaSuI.png",
   video: "/placeholder-video.mp4",
   technologies: ["Figma"],
-  documentation: "https://docs.google.com/document/d/1wleYuf6i7YsXPtvMT4yzEj1OCkxe_mIj8ctpClFqfjs/edit?usp=sharing",
+  casestudy: "https://docs.google.com/document/d/1wleYuf6i7YsXPtvMT4yzEj1OCkxe_mIj8ctpClFqfjs/edit?usp=sharing",
   live: "https://www.figma.com/proto/jEoTFkxcShY8dRSmLpqdsG/SaaS-Dashboard?node-id=4-344&p=f&t=ugcj7H9hTtnfpXTw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   featured: false,
   designProcess: {
@@ -146,7 +146,7 @@ const projects = [
   image: "/Mariah-website.png",
   video: "/placeholder-video.mp4",
   technologies: ["Figma", "Framer", "Lummi"],
-  documentation: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
+  casestudy: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
   live: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
   featured: true,
   designProcess: {
@@ -177,7 +177,7 @@ description:
 image: "/1tukicode.png",
 video: "/placeholder-video.mp4",
 technologies: ["Figma", "Illustrator", "Photoshop"],
-documentation: "https://docs.google.com/document/d/1EYcI7XqVeng0USR2iGwO-OczoiH-tUlZ8wINLknyIJo/edit?usp=sharing", 
+casestudy: "https://docs.google.com/document/d/1EYcI7XqVeng0USR2iGwO-OczoiH-tUlZ8wINLknyIJo/edit?usp=sharing", 
 live: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
 featured: true,
 designProcess: {
@@ -207,7 +207,7 @@ designSystem:
   image: "/Funita.png",
   video: "/placeholder-video.mp4",
   technologies: ["Figma", "Illustrator", "Photoshop"],
-  documentation: "https://docs.google.com/document/d/16TNL4yPDf-eZYOsowAn5DAyjHwcJAnJHjlIab7RGTM0/edit?usp=sharing", // not deployed
+  casestudy: "https://docs.google.com/document/d/16TNL4yPDf-eZYOsowAn5DAyjHwcJAnJHjlIab7RGTM0/edit?usp=sharing", // not deployed
   live: "https://www.figma.com/proto/your-funita-link",
   featured: true,
   designProcess: 
@@ -385,11 +385,11 @@ function ProjectCard({
               className="text-white/80 hover:text-white p-0"
               onClick={(e) => {
                 e.stopPropagation()
-                window.open(project.documentation, "_blank")
+                window.open(project.casestudy, "_blank")
               }}
             >
               <Github className="w-4 h-4 mr-2" />
-              Documentation
+              Case Study
             </Button>
             <Button
               variant="ghost"
@@ -483,7 +483,7 @@ function ProjectModal({
               <Button
                 variant="outline"
                 className="flex-1 border-white/30 text-white hover:bg-white/10 bg-transparent"
-                onClick={() => window.open(project.documentation, "_blank")}
+                onClick={() => window.open(project.casestudy, "_blank")}
               >
                 <Github className="w-4 h-4 mr-2" />
                 View Source Code
