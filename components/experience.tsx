@@ -8,67 +8,52 @@ import { Button } from "@/components/ui/button"
 const experiences = [
   {
     id: 1,
-    title: "Product Designer",
-    company: "ProsperMinds LTD",
-    location: "Nairobi, Kenya",
-    period: "Mar 2024 - Mar 2025",
+    title: "UI/UX Consultant",
+    company: "AI Products",
+    location: "Remote",
+    period: "Jan 2024 - CURRENT",
     description:
-      "Leading the development of cutting-edge learning applications using React, Next.js, and modern web technologies. Mentoring junior developers and architecting scalable frontend solutions.",
+      "Leading the development of AI systems and automating processes",
     achievements: [
-      "Increased application performance by 40% through optimization",
-      "Led a team of 5 developers on major product launches",
-      "Implemented design system used across 10+ products",
+      "Designed AI-based dashboards and messaging applications for user needs resulted in a 35% improvement in operational effectiveness",
+      "Performed user research and usability testing with different users to obtain essential information, which led to immediate feature selection. ",
+      "•	Worked with engineers to transform artificial intelligence workflows and logic into user-friendly interface paths. ",
     ],
-    technologies: ["React", "Figma", "WordPress", "HTML5", "CSS3", "JavaScript", "Canva", "Adobe Creative Suite"],
+    technologies: ["React", "Figma", "WordPress", "ChatGPT", "n8n", "v0", "Canva", "Adobe Creative Suite"],
     color: "from-purple-500 to-pink-500",
   },
   {
     id: 2,
     title: "UI/UX Designer",
-    company: "Zendawa Africa",
-    location: "Nairobi, Kenya",
-    period: "Apr 2024 - Jun 2024",
+    company: "xAI",
+    location: "Palo Alto, California",
+    period: "Jan 2022 - Dec 2023",
     description:
-      "Joined as an early employee to build the company's first web platform. Worked in a fast-paced startup environment with rapid iteration cycles.",
+      "Joined as a trainer for AI tool interfaces. Worked in a fast-paced startup environment with rapid iteration cycles.",
     achievements: [
-      "Developed MVP for the Zendawa Shopping app",
-      "Reduced loading times by 60% through code optimization",
-      "Collaborated with cross-functional teams of 4+ members",
+      "Worked with ML researchers to design user-centered UI elements, which helped users interpret complex AI output results. ",
+      "Performed complete UX research for conversational products, which resulted in 28% better user engagement and task completion rates",
+      "•	Established AI-specific design specifications for data labeling and model feedback, and reinforcement learning user interface flows",
     ],
-    technologies: ["Figma", "HTML5", "CSS3", "JavaScript"],
+    technologies: ["Figma", "AI", "ML", "JavaScript"],
     color: "from-blue-500 to-cyan-500",
   },
   {
     id: 3,
-    title: "UI/UX Designer",
-    company: "Oasis Infobyte",
-    location: "New Delhi, India",
-    period: "Jun 2023 - Dec 2023",
+    title: "Frontend Developer (UI/UX Integration)",
+    company: "Hugging Face ",
+    location: "Remote - USA",
+    period: "Aug 2021 - Dec 2021",
     description:
       "Developed and maintained full-stack applications, working closely with design and product teams to deliver exceptional user experiences.",
     achievements: [
-      "Implemented responsive design for mobile-first approach",
-      "Created reusable component library",
+      "Worked with UX designers to transform prototypes into fully functional React components for production use",
+      "•	Enabled the quick development of AI demo user interfaces, which served more than 1000 opensource community developers. ",
     ],
-    technologies: ["React", "HTML5", "Sass", "CSS3", "Adobe Creative Suite"],
+    technologies: ["React", "HTMl5", "Sass", "Figma", "Adobe Creative Suite"],
     color: "from-green-500 to-teal-500",
   },
-  {
-    id: 4,
-    title: "UI/UX Designer",
-    company: "Pivot Networks",
-    location: "Nairobi, Kenya",
-    period: "Jan 2022 - Dec 2022",
-    description:
-      "Started my professional journey building websites for small businesses and learning the fundamentals of modern web development.",
-    achievements: [
-      "Delivered 25+ client websites on time and budget",
-      "Learned modern JavaScript frameworks and tools",
-      "Maintained 98% client satisfaction rate",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "Figma", "WordPress"],
-    color: "from-orange-500 to-red-500",
-  },
+  
 ]
 
 export default function Experience() {

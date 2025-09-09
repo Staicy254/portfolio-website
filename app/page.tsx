@@ -1,7 +1,8 @@
 "use client"
-import { Canvas } from "@react-three/fiber"
+
 import { Suspense } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
+import { Canvas } from "@react-three/fiber"  
 import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
 import About from "@/components/about"

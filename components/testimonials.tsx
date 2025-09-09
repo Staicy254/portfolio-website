@@ -112,14 +112,7 @@ export default function Testimonials() {
 
               {/* Author Info */}
               <div className="flex items-center justify-center space-x-4">
-                <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-amber-400/50">
-                  <Image
-                    src={currentTestimonial.image || "/placeholder.svg"}
-                    alt={currentTestimonial.name}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                
                 <div className="text-center">
                   <div className="text-white font-semibold text-lg">{currentTestimonial.name}</div>
                   <div className="text-amber-300 font-medium">{currentTestimonial.role}</div>

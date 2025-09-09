@@ -1,19 +1,15 @@
 "use client"
 
-import type React from "react"
-
 import { useState, useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { Send, Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react"
+import { Send, Mail, Phone, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
-
-
 const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
-  { icon: Phone, text: "+1 7472920712 ", href: "tel:+17472920712" },
+  { icon: Phone, text: "+1 7472920712", href: "tel:+17472920712" },
   { icon: MapPin, text: "Los Angeles, California", href: "#" },
 ]
 
@@ -48,15 +44,14 @@ export default function Contact() {
   }
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }))
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
   return (
     <section id="contact" ref={containerRef} className="py-32 px-6 relative">
       <div className="max-w-7xl mx-auto">
+        {/* Section Heading */}
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -73,6 +68,7 @@ export default function Contact() {
           </p>
         </motion.div>
 
+        {/* Grid Layout */}
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
           <motion.div
@@ -84,8 +80,9 @@ export default function Contact() {
               <h3 className="text-3xl font-bold text-white mb-8">Send a Message</h3>
 
               <form onSubmit={handleSubmit} className="space-y-6">
+                {/* Name & Email */}
                 <div className="grid md:grid-cols-2 gap-6">
-                  <motion.div whileFocus={{ scale: 1.02 }} className="relative">
+                  <motion.div whileHover={{ scale: 1.02 }} className="relative">
                     <Input
                       type="text"
                       name="name"
@@ -97,7 +94,7 @@ export default function Contact() {
                     />
                   </motion.div>
 
-                  <motion.div whileFocus={{ scale: 1.02 }} className="relative">
+                  <motion.div whileHover={{ scale: 1.02 }} className="relative">
                     <Input
                       type="email"
                       name="email"
@@ -110,7 +107,8 @@ export default function Contact() {
                   </motion.div>
                 </div>
 
-                <motion.div whileFocus={{ scale: 1.02 }} className="relative">
+                {/* Subject */}
+                <motion.div whileHover={{ scale: 1.02 }} className="relative">
                   <Input
                     type="text"
                     name="subject"
@@ -122,7 +120,8 @@ export default function Contact() {
                   />
                 </motion.div>
 
-                <motion.div whileFocus={{ scale: 1.02 }} className="relative">
+                {/* Message */}
+                <motion.div whileHover={{ scale: 1.02 }} className="relative">
                   <Textarea
                     name="message"
                     placeholder="Your Message"
@@ -134,6 +133,7 @@ export default function Contact() {
                   />
                 </motion.div>
 
+                {/* Submit Button */}
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                   <Button
                     type="submit"
@@ -173,8 +173,8 @@ export default function Contact() {
             <div>
               <h3 className="text-3xl font-bold text-white mb-8">Get in Touch</h3>
               <p className="text-white/80 text-lg leading-relaxed mb-8">
-                I'm always excited to work on new projects and collaborate with amazing people. Whether you have a
-                question, a project idea, or just want to say hello, feel free to reach out!
+                I'm always excited to work on new projects and collaborate with amazing people.
+                Whether you have a question, a project idea, or just want to say hello, feel free to reach out!
               </p>
             </div>
 
@@ -190,18 +190,21 @@ export default function Contact() {
                     animate={isInView ? { opacity: 1, x: 0 } : {}}
                     transition={{ duration: 0.8, delay: 0.6 + index * 0.1 }}
                     whileHover={{ scale: 1.05, x: 10 }}
-                    className="flex items-center p-4 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:border-purple-400/50 transition-all duration-300 group"
+                    className="flex items-center p-4 bg-gradient-to-r from-white/10 to-white/5 
+                               backdrop-blur-sm border border-white/10 rounded-2xl 
+                               hover:border-purple-400/50 transition-all duration-300 group"
                   >
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl 
+                                    flex items-center justify-center mr-4 group-hover:scale-110 
+                                    transition-transform duration-300">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
-                    <span className="text-white/80 group-hover:text-white transition-colors">{info.text}</span>
+                    <span className="text-white/80 group-hover:text-white transition-colors">
+                      {info.text}
+                    </span>
                   </motion.a>
                 )
               })}
-            </div>
-
-            
             </div>
           </motion.div>
         </div>

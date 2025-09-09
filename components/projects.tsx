@@ -168,61 +168,7 @@ const projects = [
   designSystem:
     "Custom component library including buttons, cards, and navigation elements, aligned with the artist’s brand style.",
 },
-{
-  id: 6,
-title: "Tukicode — Kids Learning App UI/UX Design",
-category: "UI/UX Design",
-description:
-  "A playful and engaging mobile app design for Tukicode, an educational platform offering daily challenges in math, coding, grammar, and CRE for children. Focused on fun learning, easy navigation, and child-friendly safety features.",
-image: "/1tukicode.png",
-video: "/placeholder-video.mp4",
-technologies: ["Figma", "Illustrator", "Photoshop"],
-casestudy: "https://docs.google.com/document/d/1EYcI7XqVeng0USR2iGwO-OczoiH-tUlZ8wINLknyIJo/edit?usp=sharing", 
-live: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
-featured: true,
-designProcess: {
-  problem:
-    "Many children’s educational apps are either too complex for younger users or lack engaging features that encourage daily learning and parent involvement.",
-  research:
-    "Reviewed 12+ popular children’s learning apps, studied child-friendly UI patterns, and interviewed parents and teachers to understand learning motivation and safe online experiences.",
-  solution:
-    "Designed a bright, mascot-guided app with a simple login/registration process, daily challenge streaks, subject-based navigation, and parent verification. Incorporated playful animations and large interactive buttons for small hands.",
-  outcomes:
-    "Created a working prototype tested with children aged 6–12, resulting in high engagement and easy navigation without adult assistance. Parents praised the balance between fun and learning.",
-},
-wireframes: "/Tukicode-Wireframes.png",
-prototype: "https://www.figma.com/proto/OPcwsB4ssMhRMNATUVJkNs/Onboarding-Tukicode--Kids?node-id=16-7&t=UNbXMEWmnD3H3HQS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2", 
-userTesting:
-  "Conducted feedback sessions with children, parents, and teachers to refine colors, text size, and onboarding steps. Adjusted the registration flow to make it quicker and more intuitive.",
-accessibility:
-  "Large tap targets, audio guidance for pre-readers, high-contrast colors, and descriptive icons for each learning subject.",
-designSystem:
-  "Custom child-friendly component library with oversized buttons, bright color palette, subject-themed icons, and consistent rounded shapes for a friendly feel.",
-},
-{
-   id: 6,
-  title: "Funita — Single-Page Furniture Website Design",
-  category: "UI/UX Design",
-  description: "A sleek and inviting single-page website for Funita, a modern furniture brand. Focused on lifestyle-inspired visuals, smooth navigation, and a product-focused layout that encourages browsing and purchases.",
-  image: "/Funita.png",
-  video: "/placeholder-video.mp4",
-  technologies: ["Figma", "Illustrator", "Photoshop"],
-  casestudy: "https://docs.google.com/document/d/16TNL4yPDf-eZYOsowAn5DAyjHwcJAnJHjlIab7RGTM0/edit?usp=sharing", // not deployed
-  live: "https://www.figma.com/proto/your-funita-link",
-  featured: true,
-  designProcess: 
-  {
-    problem: "Funita lacked a dedicated online platform to showcase its products and inspire potential buyers, resulting in missed sales opportunities.",
-    research: "Studied competitor furniture websites, explored e-commerce best practices, and analyzed interior design trends to find what attracts and retains customer interest.",
-    solution: "Designed a single-page website with a full-width lifestyle hero image, curated product categories, and clear CTAs. Used warm colors, generous white space, and large product photography to create an upscale feel.",
-    outcomes: "Delivered a visually rich, user-friendly design that elevates Funita’s brand presence and makes browsing and purchasing seamless. Early feedback praised the clean aesthetic and easy navigation."
-  },
-  wireframes: "/Funita-Wireframes.png",
-  prototype: "https://www.figma.com/proto/your-funita-link",
-  userTesting: "Gathered feedback from furniture buyers and home décor enthusiasts to refine product placement, category labeling, and mobile usability.",
-  accessibility: "High-contrast typography, large tappable buttons for mobile browsing, and descriptive alt text for product images.",
-  designSystem: "Custom furniture-focused component library with consistent typography, a warm earthy palette, rounded CTAs, and image-driven product cards for a cohesive and premium look."
-},
+
 ]
 
 export default function Projects() {
