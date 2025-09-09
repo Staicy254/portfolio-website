@@ -9,16 +9,12 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
-const socialLinks = [
-  { icon: Github, href: "https://github.com/Staicy254", label: "GitHub" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/jean-otambo-6342952a7/", label: "LinkedIn" },
-  { icon: Twitter, href: "https://x.com/jeanauma2", label: "Twitter" },
-]
+
 
 const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
-  { icon: Phone, text: "+254 748021385", href: "tel:+254748021385" },
-  { icon: MapPin, text: "Nairobi, Kenya", href: "#" },
+  { icon: Phone, text: "+1 7472920712 ", href: "tel:+17472920712" },
+  { icon: MapPin, text: "Los Angeles, California", href: "#" },
 ]
 
 export default function Contact() {
@@ -205,30 +201,7 @@ export default function Contact() {
               })}
             </div>
 
-            {/* Social Links */}
-            <div>
-              <h4 className="text-xl font-semibold text-white mb-6">Follow Me</h4>
-              <div className="flex space-x-4">
-                {socialLinks.map((social, index) => {
-                  const Icon = social.icon
-                  return (
-                    <motion.a
-                      key={social.label}
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      initial={{ opacity: 0, y: 50 }}
-                      animate={isInView ? { opacity: 1, y: 0 } : {}}
-                      transition={{ duration: 0.8, delay: 0.8 + index * 0.1 }}
-                      whileHover={{ scale: 1.1, y: -5 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="w-14 h-14 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-white/10 rounded-2xl flex items-center justify-center hover:border-purple-400/50 transition-all duration-300 group"
-                    >
-                      <Icon className="w-6 h-6 text-white/80 group-hover:text-white transition-colors" />
-                    </motion.a>
-                  )
-                })}
-              </div>
+            
             </div>
           </motion.div>
         </div>
