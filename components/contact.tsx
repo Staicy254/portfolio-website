@@ -9,8 +9,8 @@ import { Textarea } from "@/components/ui/textarea"
 
 const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
-  { icon: Phone, text: "+1 7472920712", href: "tel:+17472920712" },
-  { icon: MapPin, text: "Los Angeles, California", href: "#" },
+  { icon: Phone, text: "+254 748021385", href: "tel:+254748021385" },
+  { icon: MapPin, text: "Nairobi, Kenya", href: "#" },
 ]
 
 export default function Contact() {
