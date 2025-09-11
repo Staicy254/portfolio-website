@@ -6,52 +6,72 @@ import { Calendar, MapPin, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const experiences = [
+  
   {
     id: 1,
-    title: "UI/UX Consultant",
-    company: "AI Products",
-    location: "Remote",
-    period: "Jan 2024 - CURRENT",
+    title: "Product Designer",
+    company: "ProsperMinds Ltd.",
+    location: "Hybrid - Nairobi",
+    period: "Mar 2024 - Mar 2025",
     description:
-      "Leading the development of AI systems and automating processes",
+      "Led the design and development of an Online LMS",
     achievements: [
-      "Designed AI-based dashboards and messaging applications for user needs resulted in a 35% improvement in operational effectiveness",
-      "Performed user research and usability testing with different users to obtain essential information, which led to immediate feature selection. ",
-      "•	Worked with engineers to transform artificial intelligence workflows and logic into user-friendly interface paths. ",
+      "Designed high-performing promotional banners and social media visuals using Figma, Canva & Adobe Suite",
+      "Did various posters and banners for marketing the programs for ProsperMinds",
+      "Working in a hybrid work setup, my role revolved around various administrative tasks and the design and management of the project.",
     ],
-    technologies: ["React", "Figma", "WordPress", "ChatGPT", "n8n", "v0", "Canva", "Adobe Creative Suite"],
-    color: "from-purple-500 to-pink-500",
+    technologies: ["Figma", "Canva", "WordPress", "JavaScript", "React", "Adobe Creative Suite"],
+    color: "from-blue-500 to-cyan-500",
   },
   {
     id: 2,
     title: "UI/UX Designer",
-    company: "xAI",
-    location: "Palo Alto, California",
-    period: "Jan 2022 - Dec 2023",
+    company: "Zendawa Africa",
+    location: "Remote",
+    period: "Apr 2024 - July 2024",
     description:
-      "Joined as a trainer for AI tool interfaces. Worked in a fast-paced startup environment with rapid iteration cycles.",
+      "Led the design and implementation of an e-commerce site for Zendawa Africa",
     achievements: [
-      "Worked with ML researchers to design user-centered UI elements, which helped users interpret complex AI output results. ",
-      "Performed complete UX research for conversational products, which resulted in 28% better user engagement and task completion rates",
-      "•	Established AI-specific design specifications for data labeling and model feedback, and reinforcement learning user interface flows",
-    ],
-    technologies: ["Figma", "AI", "ML", "JavaScript"],
-    color: "from-blue-500 to-cyan-500",
-  },
-  {
-    id: 3,
-    title: "Frontend Developer (UI/UX Integration)",
-    company: "Hugging Face ",
-    location: "Remote - USA",
-    period: "Aug 2021 - Dec 2021",
-    description:
-      "Developed and maintained full-stack applications, working closely with design and product teams to deliver exceptional user experiences.",
-    achievements: [
-      "Worked with UX designers to transform prototypes into fully functional React components for production use",
-      "•	Enabled the quick development of AI demo user interfaces, which served more than 1000 opensource community developers. ",
+      "Worked in a fast-paced, agile environment, contributing to both development and optimization tasks.",
+      "Applied WCAG guidelines to ensure accessibility and inclusive design across all devices",
+      "Delivered branded visual assets tailored to campaign needs and platform guidelines",
+      "Ensured visual consistency across platforms through reusable UI patterns and documentation",
     ],
     technologies: ["React", "HTMl5", "Sass", "Figma", "Adobe Creative Suite"],
     color: "from-green-500 to-teal-500",
+  },
+  
+  {
+    id: 3,
+    title: "UI/UX Designer",
+    company: "Oasis Infobyte",
+    location: "Remote - Nairobi",
+    period: "June 2023 - Dec 2023",
+    description:
+      "Built SEO-optimized, mobile-responsive websites with a focus on semantic HTML, CSS3, and JavaScript, and Figma",
+    achievements: [
+      "Applied accessibility best practices and designed responsive layouts that ensured seamless user experiences across devices.",
+      "Specialized in mobile-first UI design with performance in mind",
+      "Designed intuitive mobile and web UIs for consumer-facing platforms with a focus on clean visual hierarchy and responsive layouts",
+    ],
+    technologies: ["React", "HTMl5", "Sass", "Figma", "Adobe Creative Suite"],
+    color: "from-purple-500 to-pink-500",
+  },
+  {
+    id: 4,
+    title: "UI/UX Designer",
+    company: "Pivot Networks",
+    location: "Remote - Nairobi",
+    period: "Jan 2022 - Dec 2022",
+    description:
+      "Developed various sites for clients and Graphic Designs",
+    achievements: [
+      "Created engaging, emotionally resonant design experiences aligned with brand tone and user expectations",
+      "Built and maintained scalable component libraries in Figma using auto-layout and variants",
+      "Familiar with motion design principles and used tools like Framer or Figma prototypes to communicate animated states",
+    ],
+    technologies: ["React", "HTMl5", "Sass", "Figma", "Adobe Creative Suite"],
+    color: "from-orange-500 to-yellow-500",
   },
   
 ]
