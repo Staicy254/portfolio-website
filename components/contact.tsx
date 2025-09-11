@@ -11,7 +11,7 @@ const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
   { icon: Phone, text: "+254 748021385", href: "tel:+254748021385" },
   { icon: MapPin, text: "Nairobi, Kenya", href: "#" },
-]
+];
 
 export default function Contact() {
   const [formData, setFormData] = useState({
