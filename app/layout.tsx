@@ -5,8 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Otambo Library',
-  description: 'Done by Jean Otambo',
-  generator: 'Otambo.library',
+  description: 'Built by Jean Staicy Auma Otambo',
 }
 
 export default function RootLayout({

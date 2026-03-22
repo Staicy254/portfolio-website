@@ -48,7 +48,6 @@ export default function Portfolio() {
         <About />
         <DesignProcess />
         <Projects />
-        <Testimonials />
         <Experience />
         <Contact />
       </main>

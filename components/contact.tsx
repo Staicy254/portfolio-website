@@ -1,18 +1,18 @@
 "use client"
-
+ 
 import { useState, useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { Send, Mail, Phone, MapPin } from "lucide-react"
+import { Send, Mail, Phone, MapPin, Github, GitPullRequest } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-
+ 
 const contactInfo = [
   { icon: Mail, text: "jeanstaicy21@gmail.com", href: "mailto:jeanstaicy21@gmail.com" },
   { icon: Phone, text: "+254 748021385", href: "tel:+254748021385" },
   { icon: MapPin, text: "Nairobi, Kenya", href: "#" },
-];
-
+]
+ 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,32 +22,27 @@ export default function Contact() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
-
+ 
   const containerRef = useRef<HTMLDivElement>(null)
   const isInView = useInView(containerRef, { once: true, margin: "-100px" })
-
+ 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 2000))
-
     setIsSubmitting(false)
     setIsSubmitted(true)
-
-    // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false)
       setFormData({ name: "", email: "", subject: "", message: "" })
     }, 3000)
   }
-
+ 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
-
+ 
   return (
     <section id="contact" ref={containerRef} className="py-32 px-6 relative">
       <div className="max-w-7xl mx-auto">
@@ -67,7 +62,7 @@ export default function Contact() {
             Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
           </p>
         </motion.div>
-
+ 
         {/* Grid Layout */}
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
@@ -78,9 +73,8 @@ export default function Contact() {
           >
             <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
               <h3 className="text-3xl font-bold text-white mb-8">Send a Message</h3>
-
+ 
               <form onSubmit={handleSubmit} className="space-y-6">
-                {/* Name & Email */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <motion.div whileHover={{ scale: 1.02 }} className="relative">
                     <Input
@@ -93,7 +87,7 @@ export default function Contact() {
                       className="bg-white/10 border-white/20 text-white placeholder:text-white/50 focus:border-purple-400 transition-all duration-300"
                     />
                   </motion.div>
-
+ 
                   <motion.div whileHover={{ scale: 1.02 }} className="relative">
                     <Input
                       type="email"
@@ -106,8 +100,7 @@ export default function Contact() {
                     />
                   </motion.div>
                 </div>
-
-                {/* Subject */}
+ 
                 <motion.div whileHover={{ scale: 1.02 }} className="relative">
                   <Input
                     type="text"
@@ -119,8 +112,7 @@ export default function Contact() {
                     className="bg-white/10 border-white/20 text-white placeholder:text-white/50 focus:border-purple-400 transition-all duration-300"
                   />
                 </motion.div>
-
-                {/* Message */}
+ 
                 <motion.div whileHover={{ scale: 1.02 }} className="relative">
                   <Textarea
                     name="message"
@@ -132,8 +124,7 @@ export default function Contact() {
                     className="bg-white/10 border-white/20 text-white placeholder:text-white/50 focus:border-purple-400 transition-all duration-300 resize-none"
                   />
                 </motion.div>
-
-                {/* Submit Button */}
+ 
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                   <Button
                     type="submit"
@@ -162,8 +153,8 @@ export default function Contact() {
               </form>
             </div>
           </motion.div>
-
-          {/* Contact Info */}
+ 
+          {/* Right Column */}
           <motion.div
             initial={{ opacity: 0, x: 100 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -171,15 +162,15 @@ export default function Contact() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-3xl font-bold text-white mb-8">Get in Touch</h3>
+              <h3 className="text-3xl font-bold text-white mb-4">Get in Touch</h3>
               <p className="text-white/80 text-lg leading-relaxed mb-8">
                 I'm always excited to work on new projects and collaborate with amazing people.
                 Whether you have a question, a project idea, or just want to say hello, feel free to reach out!
               </p>
             </div>
-
+ 
             {/* Contact Information */}
-            <div className="space-y-6">
+            <div className="space-y-4">
               {contactInfo.map((info, index) => {
                 const Icon = info.icon
                 return (
@@ -190,13 +181,9 @@ export default function Contact() {
                     animate={isInView ? { opacity: 1, x: 0 } : {}}
                     transition={{ duration: 0.8, delay: 0.6 + index * 0.1 }}
                     whileHover={{ scale: 1.05, x: 10 }}
-                    className="flex items-center p-4 bg-gradient-to-r from-white/10 to-white/5 
-                               backdrop-blur-sm border border-white/10 rounded-2xl 
-                               hover:border-purple-400/50 transition-all duration-300 group"
+                    className="flex items-center p-4 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:border-purple-400/50 transition-all duration-300 group"
                   >
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl 
-                                    flex items-center justify-center mr-4 group-hover:scale-110 
-                                    transition-transform duration-300">
+                    <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <span className="text-white/80 group-hover:text-white transition-colors">
@@ -206,6 +193,52 @@ export default function Contact() {
                 )
               })}
             </div>
+ 
+            {/* GitHub Collaboration Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 1 }}
+              className="p-6 bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-sm border border-white/10 rounded-3xl"
+            >
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-800 rounded-xl flex items-center justify-center mr-4">
+                  <Github className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-white font-bold text-lg">Collaborate on GitHub</h4>
+                  <p className="text-white/50 text-sm">Open to project invitations</p>
+                </div>
+              </div>
+ 
+              <p className="text-white/70 text-sm leading-relaxed mb-5">
+                Building something interesting? I'm open to being invited as a collaborator on
+                GitHub; whether it's an open-source project, a startup MVP, or a side project
+                that needs a front-end developer.
+              </p>
+ 
+              <div className="flex items-center gap-3">
+                <motion.a
+                href="mailto:jeanstaicy21@gmail.com?subject=GitHub Collaboration Invite&body=Hi Jean, I'd like to invite you to collaborate on my project. My GitHub username is: [your username]. Here's a brief description of the project: [description]."
+               whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.97 }}
+                className="flex-1 flex items-center justify-center gap-2 py-3 px-4 bg-white/10 hover:bg-white/20 text-white text-sm font-semibold rounded-2xl border border-white/10 hover:border-white/30 transition-all duration-300"
+>
+                  <Github className="w-4 h-4" />
+                  View Profile
+                </motion.a>
+ 
+                <motion.a
+                  href="mailto:jeanstaicy21@gmail.com?subject=GitHub Collaboration Invite&body=Hi Jean, I'd like to invite you to collaborate on my project..."
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="flex-1 flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-sm font-semibold rounded-2xl transition-all duration-300"
+                >
+                  <GitPullRequest className="w-4 h-4" />
+                  Invite to Project
+                </motion.a>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

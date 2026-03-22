@@ -2,55 +2,60 @@
 
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { Search, Users, Palette, TestTube, BarChart, Lightbulb } from "lucide-react"
+import { Search, Code2, GitBranch, TestTube, Gauge, RefreshCw } from "lucide-react"
 
 const processSteps = [
   {
     icon: Search,
-    title: "Research & Discovery",
+    title: "Understand the Problem",
     description:
-      "User interviews, surveys, competitive analysis, and stakeholder alignment to understand the problem space.",
-    tools: ["Miro", "Notion", "Google Forms", "Calendly"],
-    deliverables: ["User Personas", "Journey Maps", "Research Insights", "Problem Statements"],
+      "Before writing a single line of code, I dig into the requirements — talking to stakeholders, reviewing specs, and mapping out edge cases to ensure I'm solving the right problem.",
+    tools: ["Notion", "Miro", "Google Docs", "Slack"],
+    deliverables: ["Requirements Brief", "Scope Definition", "Edge Case Map", "Technical Feasibility"],
   },
   {
-    icon: Users,
-    title: "User Research",
-    description: "Deep dive into user needs through ethnographic studies, usability testing, and behavioral analysis.",
-    tools: ["UserTesting", "Maze", "Hotjar", "Lookback"],
-    deliverables: ["User Interviews", "Usability Reports", "Behavioral Analytics", "Pain Point Analysis"],
+    icon: Code2,
+    title: "Architect & Plan",
+    description:
+      "I plan the component structure, data flow, and tech stack before building. Clean architecture upfront saves hours of refactoring later.",
+    tools: ["Figma", "draw.io", "TypeScript", "Git"],
+    deliverables: ["Component Tree", "Data Flow Diagram", "Tech Stack Decision", "Folder Structure"],
   },
   {
-    icon: Palette,
-    title: "Design & Prototyping",
-    description: "From low-fidelity wireframes to high-fidelity prototypes, iterating based on user feedback.",
-    tools: ["Figma", "Sketch", "Principle", "Framer"],
-    deliverables: ["Wireframes", "Prototypes", "Design Systems", "Interaction Specs"],
+    icon: GitBranch,
+    title: "Build & Iterate",
+    description:
+      "I develop in focused sprints — building reusable components, integrating APIs, and committing often with clear messages. Mobile-first, always.",
+    tools: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+    deliverables: ["Responsive UI", "API Integration", "Reusable Components", "Clean Commits"],
   },
   {
     icon: TestTube,
-    title: "Testing & Validation",
-    description: "Continuous testing with real users to validate design decisions and iterate improvements.",
-    tools: ["Maze", "UserTesting", "Optimal Workshop", "UsabilityHub"],
-    deliverables: ["Test Plans", "Usability Reports", "A/B Test Results", "Recommendations"],
+    title: "Test & Debug",
+    description:
+      "I test across devices and browsers, hunt down bugs methodically, and validate functionality against the original requirements before shipping.",
+    tools: ["Chrome DevTools", "Postman", "Lighthouse", "Jest"],
+    deliverables: ["Cross-Browser Testing", "Bug Reports", "Performance Checks", "Accessibility Audit"],
   },
   {
-    icon: BarChart,
-    title: "Metrics & Outcomes",
-    description: "Measuring success through KPIs, user satisfaction, and business impact metrics.",
-    tools: ["Google Analytics", "Mixpanel", "Hotjar", "Amplitude"],
-    deliverables: ["Success Metrics", "Impact Reports", "ROI Analysis", "Performance Dashboards"],
+    icon: Gauge,
+    title: "Optimize for Performance",
+    description:
+      "I implement lazy loading, code splitting, caching, and asset minification to ensure fast load times and high Lighthouse scores.",
+    tools: ["Lighthouse", "Webpack", "Vercel Analytics", "Google Analytics"],
+    deliverables: ["Load Time Reduction", "SEO Improvements", "Core Web Vitals", "Performance Report"],
   },
   {
-    icon: Lightbulb,
-    title: "Iteration & Optimization",
-    description: "Continuous improvement based on user feedback, analytics, and changing business needs.",
-    tools: ["Figma", "Jira", "Slack", "Linear"],
-    deliverables: ["Design Updates", "Feature Enhancements", "Optimization Reports", "Roadmap Planning"],
+    icon: RefreshCw,
+    title: "Ship & Improve",
+    description:
+      "After deployment I monitor user behavior, gather feedback, and continuously refine the product — because great software is never truly finished.",
+    tools: ["Vercel", "Google Analytics", "GitHub", "Hotjar"],
+    deliverables: ["Live Deployment", "Analytics Setup", "Feedback Loop", "Iteration Plan"],
   },
 ]
 
-export default function DesignProcess() {
+export default function DevProcess() {
   const containerRef = useRef<HTMLDivElement>(null)
   const isInView = useInView(containerRef, { once: true, margin: "-100px" })
 
@@ -65,12 +70,12 @@ export default function DesignProcess() {
         >
           <h2 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Design Process
+              How I Build
             </span>
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            My human-centered design approach combines research, creativity, and data-driven insights to solve complex
-            user problems
+            A look at how I think, plan, and build, from understanding the problem to deploying a
+            performing, scalable product
           </p>
         </motion.div>
 
@@ -125,7 +130,7 @@ export default function DesignProcess() {
           })}
         </div>
 
-        {/* Process Flow Visualization */}
+        {/* Philosophy */}
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -133,32 +138,34 @@ export default function DesignProcess() {
           className="mt-20"
         >
           <div className="bg-gradient-to-br from-cyan-500/10 to-blue-500/10 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
-            <h3 className="text-3xl font-bold text-white mb-8 text-center">My Design Philosophy</h3>
+            <h3 className="text-3xl font-bold text-white mb-8 text-center">My Development Philosophy</h3>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="w-20 h-20 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-10 h-10 text-white" />
+                  <Code2 className="w-10 h-10 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-white mb-3">Human-Centered</h4>
+                <h4 className="text-xl font-semibold text-white mb-3">Clean Code</h4>
                 <p className="text-white/70">
-                  Every design decision is rooted in user needs and validated through research
+                  Readable, maintainable, and scalable code that teammates can build on confidently
                 </p>
               </div>
               <div>
                 <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BarChart className="w-10 h-10 text-white" />
+                  <Gauge className="w-10 h-10 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-white mb-3">Data-Driven</h4>
+                <h4 className="text-xl font-semibold text-white mb-3">Performance First</h4>
                 <p className="text-white/70">
-                  Combining qualitative insights with quantitative metrics for informed decisions
+                  Every millisecond counts — I optimize for speed, accessibility, and Core Web Vitals
                 </p>
               </div>
               <div>
                 <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TestTube className="w-10 h-10 text-white" />
+                  <RefreshCw className="w-10 h-10 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-white mb-3">Iterative</h4>
-                <p className="text-white/70">Continuous testing and refinement to achieve optimal user experiences</p>
+                <h4 className="text-xl font-semibold text-white mb-3">Always Iterating</h4>
+                <p className="text-white/70">
+                  Shipping is the start, not the end — I treat every deployment as a learning opportunity
+                </p>
               </div>
             </div>
           </div>

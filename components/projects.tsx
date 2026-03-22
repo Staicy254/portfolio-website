@@ -19,23 +19,6 @@ const projects = [
     casestudy: "https://docs.google.com/document/d/1psQpccGO-cQs75kVWR3CaKDyZ3qQEbTFs7K1SxUjM0U/edit?usp=sharing",
     live: "https://zendawa-africa.vercel.app/",
     featured: true,
-    designProcess: {
-      problem:
-        "Users found it difficult to navigate the existing informational site and were hesitant to complete purchases due to a lack of trust in the digital transaction process. This led to a 40% task abandonment rate during checkout.",
-      research:
-        "Conducted 15 in-depth user interviews with target customers (including caregivers and chronic illness patients), analyzed 200+ survey responses, and created 3 user personas based on medication shopping behavior, digital confidence, and urgency levels.",
-      solution:
-        "Redesigned the platform into a user-friendly shopping web app with a clear, simplified navigation flow. Applied progressive disclosure to avoid overwhelming users, integrated trust-building elements like secure payment badges and real-time order tracking, and added micro-interactions to provide feedback during key steps in the checkout process.",
-      outcomes:
-        "Achieved a 65% increase in task completion (successful checkouts), reduced support ticket volume by 30%, and boosted overall user satisfaction score from 3.2 to 4.6 out of 5.",
-    },
-    wireframes: "/mobile-app-wireframes.png",
-    prototype: "https://www.figma.com/proto/yr5irKecgBMS2AQ46madkm/Zendawa-Africa-Design?node-id=1-77&t=IdYlCJJTHPA9Amij-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A77",
-    userTesting: "Conducted 3 rounds of usability testing with 24 participants, A/B tested key flows with 1000+ users.",
-    accessibility:
-      "WCAG 2.1 AA compliant, 4.5:1 color contrast ratio, screen reader optimized, keyboard navigation support.",
-    designSystem:
-      "Created comprehensive design system with 50+ components, 8-point grid system, and semantic color tokens.",
   },
   {
     id: 2,
@@ -49,32 +32,7 @@ const projects = [
     casestudy: "https://docs.google.com/document/d/1mEBpHWCyzYFfKURADp3QWmSavMZK4rZTSzwfwOX4it8/edit?usp=sharing",
     live: "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
     featured: true,
-    designProcess: {
-      problem: "Neon Crypto Launch suffered from weak engagement metrics, revealing critical usability and motivational issues within the learning experience.",
-      research: 
-  "Adopted a mixed-methods UX research approach: conducted competitor benchmarking across 12 leading crypto platforms, analyzed heatmaps to uncover navigation drop-offs, ran surveys with 80 users across beginner and advanced levels, and performed stakeholder interviews to prioritize features like portfolio visibility and security transparency.",
-
-  solution: 
-  "Redesigned the platform with a security-first approach, introducing a step-by-step onboarding flow with guided wallet setup, two-factor authentication prompts, and simplified account creation. Built a modular dashboard with customizable portfolio cards, real-time asset tracking, and clear trust indicators (encryption badges, MFA icons) to improve usability and confidence.",
-
-  outcomes: 
-  "Onboarding completion rates improved by 58%, transaction errors dropped by 44%, average session time increased by 37%, and overall trust scores rose from 2.9 to 4.5 out of 5.",
-    },
-  wireframes: "/cryptovault-wireframes-user-flow.png",
-
-  prototype: 
-  "https://www.figma.com/proto/YX2lpaXRRlLI4LFsKXd8H2/Cryptovault?node-id=1-192&p=f&t=hUqaEKIglqTVRiQk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A192",
-
-  userTesting: 
-  "Conducted 3 iterative testing cycles, including moderated sessions with 20 crypto users and unmoderated remote testing with over 150 participants. A/B testing compared portfolio layouts and onboarding flows, leading to streamlined forms and better mobile transaction support.",
-
-  accessibility: 
-  "Ensured accessibility by using high-contrast typography on dark backgrounds, scalable components for responsiveness, descriptive alt text for charts and icons, and keyboard navigation support. Semantic HTML and error validation messages improved screen reader compatibility.",
-
-  designSystem: 
-  "Developed a scalable, crypto-centered design system with modular dashboard components (cards, charts, transaction lists). Emphasized consistency in iconography, typography (Poppins + Inter), and color palette (Dark Navy, Emerald Green, Electric Blue). Designed with accessibility-first principles for usability across devices and abilities.",
-},
-
+  },
   {
   id: 3,
   title: "Healthcare Dashboard",
@@ -87,25 +45,7 @@ const projects = [
   casestudy: "https://docs.google.com/document/d/1juMNSACAM1wW6-iPaGjDo-PzGWdJvHzAAwE14VW4Gqg/edit?usp=sharing",
   live: "https://www.figma.com/proto/s3nbF92RGE1ySEsTJVkjt8/Healthcare-dashboard?node-id=1-2&t=EqNFISVpurlCdvz9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   featured: true,
-  designProcess: {
-    problem:
-      "Existing healthcare platforms were cluttered, making it difficult for doctors to quickly access patient vitals, diagnoses, allergies, and schedules. This inefficiency led to delays in care and reduced productivity.",
-    research:
-      "Conducted competitor analysis of 8 healthcare dashboards, interviewed 20 doctors and nurses, and mapped patient-care workflows. Heatmaps and usability feedback confirmed the need for clearer data visualization and simplified navigation.",
-    solution:
-      "Designed a modular, card-based dashboard with quick access to patient health indicators, daily appointments, doctor availability, and medical supplies. Integrated alerts for allergies, pernicious habits, and low-stock supplies. Applied a professional color palette (Teal, Soft Blue, Green, and Red) for clarity and trust.",
-    outcomes:
-      "Improved record access speed by 55%, reduced appointment scheduling time by 42%, decreased supply management errors by 37%, and raised user satisfaction scores from 3.0 to 4.7 out of 5."
   },
-  wireframes: "/medical-dashboard-wireframes.png",
-  prototype: "https://www.figma.com/proto/s3nbF92RGE1ySEsTJVkjt8/Healthcare-dashboard?node-id=1-2&t=EqNFISVpurlCdvz9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-  userTesting:
-    "Conducted 3 usability testing cycles with 60 medical professionals, including doctors, nurses, and administrators. A/B tested dashboard layouts, leading to a 48% improvement in task completion rates.",
-  accessibility:
-    "Followed WCAG standards with high-contrast typography, touch-friendly buttons, descriptive alt text for charts/icons, error validation in forms, and full keyboard navigation support.",
-  designSystem:
-    "A scalable healthcare-centered design system with a teal-and-blue palette, Roboto/Montserrat typography, modular KPI cards, patient info panels, scheduling calendar, and reusable chart components for consistent workflows."
-},
   {
   id: 4,
   title: "SaaS Dashboard",
@@ -118,24 +58,6 @@ const projects = [
   casestudy: "https://docs.google.com/document/d/1wleYuf6i7YsXPtvMT4yzEj1OCkxe_mIj8ctpClFqfjs/edit?usp=sharing",
   live: "https://www.figma.com/proto/jEoTFkxcShY8dRSmLpqdsG/SaaS-Dashboard?node-id=4-344&p=f&t=ugcj7H9hTtnfpXTw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   featured: false,
-  designProcess: {
-    problem:
-      "Users found it difficult to navigate between different modules and struggled to track real-time data, leading to frustration and low adoption of advanced features.",
-    research:
-      "Conducted user interviews, usability testing with 50 participants, heatmaps, and benchmarking against 10 modern SaaS dashboards.",
-    solution:
-      "Redesigned the dashboard with simplified navigation, modular widgets, login and signup flows with minimal friction, and interactive charts for better data insights.",
-    outcomes:
-      "Task completion rate improved by 62%, average session time increased by 40%, and user satisfaction scores rose from 3.1 to 4.6 out of 5."
-  },
-  "wireframes": "/dashboard-wireframes.png",
-  "prototype": "https://www.figma.com/proto/jEoTFkxcShY8dRSmLpqdsG/SaaS-Dashboard?node-id=4-344&p=f&t=ugcj7H9hTtnfpXTw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-  "userTesting":
-    "Ran usability tests with 100 participants across login, signup, and main dashboard flows. Iterated based on feedback to improve discoverability of core features.",
-  "accessibility":
-    "WCAG-compliant color contrast, semantic labeling for charts, keyboard shortcuts, and descriptive alt text for all icons.",
-  "designSystem":
-    "Dashboard-specific component library with reusable widgets, responsive grid layouts, and consistent typography system."
 },
   {
     id: 5,
@@ -149,24 +71,6 @@ const projects = [
   casestudy: "https://docs.google.com/document/d/1ROboyqBuSptzHAhu5hiwlkMGZ2aKYoXkA1YpJgZhWmA/edit?usp=sharing", 
   live: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
   featured: true,
-  designProcess: {
-    problem:
-      "Many musicians rely solely on social media and streaming platforms, limiting control over brand identity and direct fan engagement.",
-    research:
-      "Reviewed 10+ artist websites, conducted informal fan surveys, and studied Mariah the Scientist’s visual style and music brand.",
-    solution:
-      "Designed a responsive website with sections for music, tours, merch, and contact, incorporating smooth navigation, subtle animations, and a clean modern aesthetic.",
-    outcomes:
-      "Created a functional prototype that can be adapted for other artists, strengthening my portfolio and serving as a base for two musicians who requested similar designs.",
-  },
-  wireframes: "/Mariah-Wireframes.png",
-  prototype: "https://www.figma.com/proto/5gl69r1i0japWnYWJpY1U5/Mariah-the-Scientist?node-id=1-87&t=FUqsktz9NGaudoc1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
-  userTesting:
-    "Conducted feedback sessions with music fans and designers to refine navigation, content hierarchy, and mobile usability.",
-  accessibility:
-    "High-contrast typography, clear navigation labels, descriptive alt text for all images.",
-  designSystem:
-    "Custom component library including buttons, cards, and navigation elements, aligned with the artist’s brand style.",
 },
 
 ]

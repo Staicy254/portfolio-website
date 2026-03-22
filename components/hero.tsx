@@ -28,7 +28,7 @@ export default function Hero() {
           className="text-6xl md:text-8xl lg:text-9xl font-bold mb-6"
         >
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">
-            UI/UX
+            Frontend
           </span>
           <br />
           <motion.span
@@ -37,7 +37,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 1 }}
             className="text-white"
           >
-            Designer
+            Developer
           </motion.span>
         </motion.h1>
 
